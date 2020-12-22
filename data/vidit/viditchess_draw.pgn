@@ -1,0 +1,1122 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.11"]
+[Round "-"]
+[White "gena217"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2888"]
+[BlackElo "2934"]
+[TimeControl "180"]
+[EndTime "9:09:30 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Be7 4. Ngf3 c5 5. exd5 Qxd5 6. Bc4 Qd6 7. Ne4 Qc7 8.
+dxc5 Bxc5 9. Nxc5 Qxc5 10. Qe2 Nf6 11. O-O O-O 12. Rd1 b6 13. Bf4 Qh5 14. Bd6
+Re8 15. Ne5 Qxe2 16. Bxe2 Bb7 17. Bb5 Rc8 18. c4 a6 19. Ba4 Nc6 20. Rac1 Ne4 21.
+Bxc6 Bxc6 22. f3 Nf6 23. Kf2 Be8 24. b4 Ba4 25. Rd2 Ne8 26. c5 bxc5 27. Rxc5 Rd8
+28. Nc4 Bb5 29. Bf4 f6 30. Nb6 Rxd2+ 31. Bxd2 Rd8 32. Be3 Nd6 33. a4 Bd3 34. g4
+e5 35. Rd5 Bc2 36. Bc5 Nb7 37. Rxd8+ Nxd8 38. Ke3 Kf7 39. Kd2 Bb3 40. b5 axb5
+41. axb5 Nb7 42. Bb4 Ke6 43. Ke3 Bd1 44. h4 g6 45. g5 f5 46. f4 exf4+ 47. Kxf4
+Be2 48. Na4 Bxb5 49. Nc5+ Nxc5 50. Bxc5 Kd5 51. Ba3 Be2 52. Bb2 Bh5 53. Bg7 Kc4
+54. Bf6 Kd3 55. Be5 Ke2 56. Kg3 Ke3 57. Bf4+ Ke4 58. Bb8 Bd1 59. Bf4 Ba4 60. Bb8
+Kd5 61. Bf4 Bc2 62. Bc7 Ke4 63. Bf4 Bd1 64. Bb8 Bh5 65. Bf4 Bg4 66. Bb8 Bd1 67.
+Bf4 Bb3 68. Bb8 Bd5 69. Bf4 h6 70. Bb8 hxg5 71. hxg5 Ke3 72. Bf4+ Ke4 73. Bb8
+Be6 74. Bf4 Bd7 75. Bb8 Kd5 76. Bf4 Bb5 77. Bb8 Bd3 78. Bf4 Be4 79. Bb8 Kc6 80.
+Bf4 Kb5 81. Be5 Ka4 82. Bf4 Kb3 83. Be5 Kc2 84. Bf4 Kd1 85. Be5 Ke2 86. Bf4 Kf1
+87. Be5 Kg1 88. Bf4 Kf1 89. Be5 Ke2 90. Bf4 Kd3 91. Be5 Bd5 92. Bf4 Ke4 93. Bb8
+1/2-1/2
+
+[Event "*** Titled Tuesday Blitz"]
+[Site "Chess.com"]
+[Date "2020.05.12"]
+[Round "8"]
+[White "viditchess"]
+[Black "Anuar_Is"]
+[Result "1/2-1/2"]
+[WhiteElo "2963"]
+[BlackElo "2818"]
+[TimeControl "180+1"]
+[EndTime "11:32:53 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. g3 O-O 5. Bg2 c5 6. dxc5 Qa5 7. Qa4 Qxc5 8. Be3
+Qh5 9. h3 Nc6 10. Nf3 d6 11. c5 Nd5 12. Nxd5 Qxd5 13. Rd1 Qe6 14. cxd6 exd6 15.
+Rd2 Ne5 16. Nxe5 Bxe5 17. Bh6 Re8 18. O-O Bd7 19. Qb3 Bc6 20. Qxe6 Rxe6 21. Rfd1
+Rae8 22. e3 Bf6 23. Bxc6 bxc6 24. Rxd6 Bxb2 25. Rxe6 fxe6 26. Rd7 Rc8 27. Rxa7
+c5 28. Rb7 Bf6 29. Rb1 c4 30. Rc1 c3 31. Kf1 Rb8 32. e4 Rb2 33. a4 g5 34. h4
+gxh4 35. gxh4 Bxh4 36. Be3 Bf6 37. a5 Ra2 38. f4 c2 39. Ke2 Kf7 40. Kd3 Ra3+ 41.
+Ke2 Ra2 42. Kd3 Ra3+ 43. Ke2 Ra2 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.15"]
+[Round "-"]
+[White "viditchess"]
+[Black "Jumbo"]
+[Result "1/2-1/2"]
+[WhiteElo "2960"]
+[BlackElo "2866"]
+[TimeControl "180"]
+[EndTime "12:16:12 PDT"]
+[Termination "Game drawn - timeout vs insufficient material"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Nxd7 5. O-O Ngf6 6. Re1 e6 7. b3 Be7 8.
+Bb2 O-O 9. c4 a6 10. Nc3 Rc8 11. d4 cxd4 12. Qxd4 Qa5 13. Qd2 Qh5 14. h3 Rfd8
+15. Qe2 Nf8 16. e5 dxe5 17. Nxe5 Qxe2 18. Rxe2 Ng6 19. Nxg6 hxg6 20. Rd1 Rxd1+
+21. Nxd1 Rd8 22. Ne3 Bc5 23. g3 Ne4 24. Kg2 Rd3 25. Ng4 Nd6 26. Ne5 Rd1 27. Bc3
+g5 28. Rd2 Rxd2 29. Bxd2 Ne4 30. Be1 f6 31. Nd3 Bd4 32. b4 Kf7 33. Kf3 f5 34. c5
+Ke7 35. Ke2 Kd7 36. f3 Nc3+ 37. Kd2 Kc6 38. Kc2 Ne2 39. a4 Ng1 40. f4 Nxh3 41.
+Bc3 Bxc3 42. Kxc3 gxf4 43. gxf4 Kd5 44. b5 axb5 45. axb5 g5 46. fxg5 Nxg5 47.
+Kb4 e5 48. c6 bxc6 49. b6 Kd6 50. Nxe5 Ne6 51. Nc4+ Kd7 52. Ne5+ Kd6 53. Nc4+
+Kd7 54. Ka5 Nc5 55. Ne5+ Kd6 56. Nc4+ Kd5 57. Ne3+ Ke4 58. Nc4 f4 59. Kb4 Nb7
+60. Na5 Nd8 61. Kc5 f3 62. Kd6 f2 63. Nb3 f1=Q 64. Kd7 Qd3+ 65. Kc8 Qxb3 66. b7
+Qxb7+ 67. Kxd8 Ke5 68. Ke8 Ke6 69. Kf8 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.16"]
+[Round "-"]
+[White "viditchess"]
+[Black "Anton_Demchenko"]
+[Result "1/2-1/2"]
+[WhiteElo "2945"]
+[BlackElo "2882"]
+[TimeControl "180"]
+[EndTime "5:30:06 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. O-O O-O 6. a4 d6 7. Nc3 Bg4 8. Be3
+Qc8 9. h3 Bh5 10. Kh1 Nd4 11. Bxd4 exd4 12. Nd5 Nxd5 13. Bxd5 c6 14. Bb3 d5 15.
+exd5 Kh8 16. g4 Bg6 17. Ne5 Bd6 18. f4 Qc7 19. dxc6 bxc6 20. Qf3 Bxe5 21. fxe5
+Qxe5 22. Rae1 Qd6 23. Qf4 Qb4 24. h4 f5 25. g5 Rae8 26. Rxe8 Rxe8 27. Kg2 a5 28.
+Rf2 c5 29. h5 Bxh5 30. Qxf5 Qb7+ 31. Bd5 Qe7 32. Qf4 Bg6 33. b3 Rd8 34. Be4
+Bxe4+ 35. Qxe4 Qxg5+ 36. Kf1 Qc1+ 37. Kg2 Qg5+ 38. Kf1 h6 39. Rf4 Qh5 40. Kg2
+Qg5+ 41. Rg4 Qd2+ 42. Kh3 Qxc2 43. Rxg7 Kxg7 44. Qe7+ Kg6 45. Qe6+ Kg5 46. Qe5+
+Kg6 47. Qe6+ Kg5 48. Qe5+ Kg6 49. Qe6+ 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.16"]
+[Round "-"]
+[White "GroovyKettle"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2824"]
+[BlackElo "2931"]
+[TimeControl "180"]
+[EndTime "5:53:43 PDT"]
+[Termination "Game drawn by agreement"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8.
+Rxe5 O-O 9. Nc3 Ne8 10. Nd5 Bd6 11. Re1 c6 12. Ne3 Bc7 13. Nf5 d5 14. Ne7+ Kh8
+15. Nxc8 Rxc8 16. d3 f5 17. Qf3 Qd7 18. Bf4 Bxf4 19. Qxf4 Nc7 20. Re5 Rce8 21.
+Rae1 Kg8 22. Qa4 a6 23. Qb4 Rxe5 24. Rxe5 Re8 25. Rxe8+ Nxe8 26. g3 Kf7 27. Bh3
+g6 28. a4 Qe7 29. Qc3 Nf6 30. Bf1 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.17"]
+[Round "-"]
+[White "mishanick"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2967"]
+[BlackElo "2971"]
+[TimeControl "180"]
+[EndTime "0:33:15 PDT"]
+[Termination "Game drawn - insufficient material"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6 Qxf6 7. Qb3 c5 8. cxd5
+exd5 9. e3 O-O 10. dxc5 Bxc3+ 11. Qxc3 Qxc3+ 12. bxc3 Nd7 13. Rd1 Nf6 14. Nd4
+Bd7 15. f3 Rfc8 16. Nb3 Ba4 17. Rd4 Bxb3 18. axb3 Rxc5 19. Kd2 Ra5 20. Bd3 Ra2+
+21. Bc2 b5 22. Kc1 Rc8 23. Kb1 Ra6 24. Kb2 Rac6 25. Rc1 Kf8 26. Bf5 R8c7 27. h4
+h5 28. Bd3 a6 29. g4 hxg4 30. fxg4 Re6 31. g5 Nd7 32. Rxd5 Rxe3 33. Bf5 Ne5 34.
+h5 g6 35. hxg6 fxg6 36. Bb1 Ke7 37. Rcd1 Re2+ 38. R1d2 Rxd2+ 39. Rxd2 Rc5 40.
+Re2 Kd6 41. Rf2 Nd7 42. Rd2+ Kc7 43. Rg2 Ne5 44. b4 Rd5 45. Be4 Nc4+ 46. Ka2 Rd6
+47. Rf2 Re6 48. Bc2 Re5 49. Bxg6 Rxg5 50. Bd3 Ne5 51. Be2 Rg3 52. Kb2 Nc6 53.
+Kc2 Re3 54. Kd2 Rg3 55. Rh2 Ne5 56. Rh7+ Kd6 57. Rh6+ Rg6 58. Rxg6+ Nxg6 59. c4
+Kc6 60. cxb5+ axb5 61. Bxb5+ Kxb5 62. Kc3 Ne7 63. Kd4 Nc6+ 64. Kc3 Nxb4 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.18"]
+[Round "-"]
+[White "viditchess"]
+[Black "Fandorine"]
+[Result "1/2-1/2"]
+[WhiteElo "2974"]
+[BlackElo "2849"]
+[TimeControl "180"]
+[EndTime "4:15:23 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. Nf3 O-O 6. O-O dxc4 7. Na3 c5 8. Nxc4
+Be6 9. Nfe5 Qc8 10. Bf4 Rd8 11. Qa4 Rxd4 12. e3 Rd8 13. Nb6 axb6 14. Qxa8 Nd5
+15. Rfd1 g5 16. Nxf7 Bxf7 17. Bxb8 Bxb2 18. Rab1 Nc3 19. Rxd8+ Qxd8 20. Rf1 Bd5
+21. Bxd5+ Qxd5 22. Be5+ Kf7 23. Bxc3 Bxc3 24. Qa4 c4 25. Qc2 Bg7 26. Rd1 Qc5 27.
+Qxh7 c3 28. Qe4 Bf6 29. Qc2 Kg7 30. a4 b5 31. axb5 Qxb5 32. Rb1 Qc6 33. Qb3 b5
+34. Rc1 Qc5 35. Rb1 b4 36. Rc1 Qd6 37. Rd1 Qc5 38. Rd5 Qc6 39. Rd1 Qc5 40. Rc1
+Qd6 41. Rd1 Qc5 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.18"]
+[Round "-"]
+[White "GroovyKettle"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2837"]
+[BlackElo "2973"]
+[TimeControl "180"]
+[EndTime "5:10:42 PDT"]
+[Termination "Game drawn by agreement"]
+
+1. e4 c6 2. Nf3 d5 3. Nc3 Nf6 4. e5 Ne4 5. Ne2 Qb6 6. d4 e6 7. Ng3 c5 8. Bd3
+Nxg3 9. fxg3 Nc6 10. dxc5 Bxc5 11. Qe2 Bd7 12. a3 O-O-O 13. b4 Bd4 14. Rb1 f6
+15. Nxd4 Nxd4 16. Qe3 fxe5 17. Qxe5 Nc6 18. Qe3 e5 19. Qxb6 axb6 20. Be3 Kc7 21.
+c3 h6 22. O-O Rhf8 23. Be2 Ne7 24. g4 Be6 25. a4 Rxf1+ 26. Rxf1 Ra8 27. Bb5 Nc6
+28. g5 hxg5 29. Bxg5 d4 30. cxd4 Nxd4 31. Rc1+ Kd6 32. Be3 Nxb5 33. axb5 Ra2 34.
+Bxb6 Bd5 35. Bf2 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.18"]
+[Round "-"]
+[White "viditchess"]
+[Black "GroovyKettle"]
+[Result "1/2-1/2"]
+[WhiteElo "2970"]
+[BlackElo "2840"]
+[TimeControl "180"]
+[EndTime "5:16:36 PDT"]
+[Termination "Game drawn by agreement"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 dxc4 5. Bg2 a6 6. O-O Nc6 7. Nbd2 b5 8. b3
+cxb3 9. Nxb3 Bd7 10. Bg5 Be7 11. Rc1 Rb8 12. Ne1 Nb4 13. a3 Nbd5 14. Nc5 Bxc5
+15. Rxc5 h6 16. Bxf6 Nxf6 17. Qc2 O-O 18. Nd3 a5 19. Rb1 c6 20. Ne5 Nd5 21. Bxd5
+cxd5 22. Rc7 Be8 23. Qc5 f6 24. Nc6 Bxc6 25. Rxc6 Qd7 26. Rc7 Qe8 27. Qa7 Qg6
+28. Rb3 b4 29. Qxa5 bxa3 30. Qxa3 Rxb3 31. Qxb3 Rf7 32. Qb8+ Kh7 33. Rc6 Qe4 34.
+e3 h5 35. h4 Re7 36. Qf4 Qxf4 37. gxf4 Kg6 38. Kg2 Kf5 39. f3 Ra7 40. Rc2 Ra3
+41. Kf2 Rb3 42. Rd2 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.18"]
+[Round "-"]
+[White "GroovyKettle"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2843"]
+[BlackElo "2967"]
+[TimeControl "180"]
+[EndTime "5:21:53 PDT"]
+[Termination "Game drawn by agreement"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. dxe5 Nxb5 7. a4 Nbd4 8.
+Nxd4 d6 9. exd6 Bxd6 10. Nxc6 bxc6 11. Re1+ Be6 12. Nd2 O-O 13. Ne4 Re8 14. Bg5
+f6 15. Be3 Bd5 16. Nxd6 cxd6 17. Qd2 Qd7 18. f3 Re7 19. b3 Rae8 20. Rad1 Bf7 21.
+Bf2 Rxe1+ 22. Bxe1 h6 23. Bf2 d5 24. h3 Bg6 25. c3 Qb7 26. b4 Qa6 27. a5 Qb7 28.
+Bd4 a6 29. Qf4 Kh7 30. h4 h5 31. Kh2 Re2 32. Rd2 Rxd2 33. Qxd2 Qb5 34. Qe3 Qb7
+35. Kg1 Kg8 36. Bc5 Kf7 37. Qe2 Bf5 38. Qe3 Be6 39. Bd6 Qd7 40. Qc5 Bf5 41. Bf4
+Bd3 42. Be3 Bb5 43. Bd4 Qe6 44. Be3 Kg6 45. Qd4 Qf5 46. Qf4 Qd3 47. Bd4 Qf1+ 48.
+Kh2 Qe2 49. Qg3+ Kf7 50. Qc7+ Qe7 51. Qxe7+ Kxe7 52. Kg3 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.20"]
+[Round "-"]
+[White "GMHess"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2721"]
+[BlackElo "2877"]
+[TimeControl "60"]
+[EndTime "19:54:13 PDT"]
+[Termination "Game drawn - insufficient material"]
+
+1. g3 c5 2. Bg2 Nc6 3. c4 Nf6 4. Nf3 e6 5. O-O d5 6. cxd5 exd5 7. d4 cxd4 8.
+Nxd4 Bc5 9. Nb3 Bb6 10. Bg5 O-O 11. Nc3 d4 12. Bxf6 Qxf6 13. Nd5 Qd8 14. Nxb6
+Qxb6 15. Bxc6 Qxc6 16. Nxd4 Qg6 17. Nf3 Bh3 18. Re1 Rad8 19. Qb3 b6 20. Rad1 h6
+21. Ne5 Qf6 22. f4 Qf5 23. e4 Rxd1 24. Qxd1 Qe6 25. Qd5 Rc8 26. Qxe6 Bxe6 27. b3
+Rc2 28. f5 Bc8 29. a4 Bb7 30. Nc4 Rc3 31. Nd6 Bc6 32. Nc8 Bxa4 33. Nxa7 Bxb3 34.
+Nb5 Rc2 35. Nd4 Rb2 36. Re3 Bc4 37. Rc3 b5 38. e5 Rb1+ 39. Kf2 Rf1+ 40. Ke3 Re1+
+41. Kf4 g5+ 42. fxg6 fxg6 43. h4 Kf7 44. Rf3 Ke7 45. Re3 Rxe3 46. Kxe3 b4 47.
+Kd2 g5 48. h5 g4 49. Nf5+ Ke6 50. Nxh6 b3 51. Nxg4 Be2 52. Ne3 Bxh5 53. Kc3 Bg6
+54. Kxb3 Kxe5 55. Kc3 Ke4 56. Kd2 Kf3 57. g4 Kf4 58. g5 Bf5 59. Nd5+ Kxg5
+1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.20"]
+[Round "-"]
+[White "viditchess"]
+[Black "GMHess"]
+[Result "1/2-1/2"]
+[WhiteElo "2897"]
+[BlackElo "2701"]
+[TimeControl "60"]
+[EndTime "20:11:56 PDT"]
+[Termination "Game drawn - insufficient material"]
+
+1. d4 d5 2. c4 c6 3. e3 Nf6 4. Nc3 e6 5. Be2 Be7 6. Nf3 O-O 7. O-O a6 8. Qc2 b5
+9. c5 a5 10. e4 b4 11. e5 bxc3 12. exf6 Bxf6 13. bxc3 Ba6 14. Bf4 Bxe2 15. Qxe2
+Nd7 16. Rab1 Re8 17. Bd6 e5 18. dxe5 Bxe5 19. Nxe5 Nxe5 20. Bxe5 f6 21. Bxf6
+Rxe2 22. Bxd8 Rxd8 23. Rb6 Rxa2 24. Rxc6 Rc2 25. Rd6 Rc8 26. Rxd5 Rxc3 27. g3
+R8xc5 28. Rd7 Rc7 29. Rxc7 Rxc7 30. Ra1 Ra7 31. Ra4 Kf7 32. Kf1 Ke6 33. Ke2 Kd5
+34. Kd3 Kc5 35. Kc3 Kb5 36. Rf4 a4 37. Kb2 a3+ 38. Ka2 g6 39. h4 Kc5 40. g4 Kd5
+41. g5 Ke5 42. Rf6 Ke4 43. f4 Ra5 44. Rf7 Rf5 45. Rxh7 Kxf4 46. h5 Kxg5 47. hxg6
+Kxg6 48. Ra7 Rf3 49. Ra6+ Kg5 50. Rxa3 Rxa3+ 51. Kxa3 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.21"]
+[Round "-"]
+[White "viditchess"]
+[Black "UlQI0RRA"]
+[Result "1/2-1/2"]
+[WhiteElo "2971"]
+[BlackElo "2857"]
+[TimeControl "180"]
+[EndTime "3:31:51 PDT"]
+[Termination "Game drawn - insufficient material"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. g3 d6 5. Bg2 O-O 6. Nf3 Nc6 7. O-O e5 8. dxe5
+dxe5 9. Qxd8 Rxd8 10. Bg5 Be6 11. Nd2 h6 12. Bxf6 Rxd2 13. Bxg7 Kxg7 14. Bxc6
+bxc6 15. b3 Rad8 16. Rfd1 f5 17. Kf1 Kf6 18. Ke1 Rxd1+ 19. Rxd1 Rh8 20. f3 h5
+21. h4 g5 22. hxg5+ Kxg5 23. Kf2 h4 24. gxh4+ Rxh4 25. Rd8 Rh1 26. Ra8 Rc1 27.
+Na4 f4 28. Nc5 Bh3 29. Rg8+ Kf6 30. Rg1 Rxg1 31. Kxg1 Bf5 32. Kf2 Bb1 33. a3 Ke7
+34. Ke1 Kd6 35. Nb7+ Ke7 36. Kd2 Bf5 37. Nc5 Kd6 38. b4 Bg6 39. Kc3 Bf5 40. a4
+Bg6 41. Nb7+ Ke7 42. Na5 Kd6 43. b5 cxb5 44. axb5 Be8 45. Nb7+ Ke7 46. Kb4 c6
+47. Kc5 cxb5 48. cxb5 e4 49. Nd6 exf3 50. exf3 Bh5 51. Nf5+ Kd7 52. Nd4 Kc7 53.
+Ne6+ Kd7 54. Nxf4 Bxf3 55. Nd5 Bxd5 56. Kxd5 Kc7 57. Kc5 Kb7 58. Kb4 Kb6 59. Ka4
+a6 60. bxa6 Kxa6 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.21"]
+[Round "-"]
+[White "UlQI0RRA"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2860"]
+[BlackElo "2968"]
+[TimeControl "180"]
+[EndTime "3:35:40 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. e4 c5 2. d4 cxd4 3. c3 d3 4. Bxd3 Nc6 5. Nf3 g6 6. O-O Bg7 7. Qe2 d6 8. h3
+Nf6 9. Rd1 Nd7 10. Na3 O-O 11. Be3 a6 12. Nc4 b5 13. Ncd2 Rb8 14. Nd4 Bb7 15. h4
+h5 16. Rac1 Nce5 17. Bc2 e6 18. Bg5 Bf6 19. Bxf6 Qxf6 20. N2f3 Rfd8 21. Ng5 Rbc8
+22. Bb3 Nc5 23. Bc2 Nc4 24. Bb1 d5 25. Re1 dxe4 26. Nxe4 Bxe4 27. Bxe4 Qxh4 28.
+Bf3 Qf6 29. Rcd1 Nd6 30. Nc6 Rd7 31. Ne5 Rdd8 32. Nc6 Rd7 33. Ne5 Rdd8 34. Nc6
+1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.21"]
+[Round "-"]
+[White "Jumbo"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2913"]
+[BlackElo "2977"]
+[TimeControl "180"]
+[EndTime "3:54:48 PDT"]
+[Termination "Game drawn - insufficient material"]
+
+1. d4 Nf6 2. Bf4 e6 3. e3 c5 4. c3 b6 5. Nf3 cxd4 6. exd4 Be7 7. Nbd2 O-O 8. h3
+Ba6 9. Bxa6 Nxa6 10. Qe2 Nc7 11. a4 d6 12. O-O a6 13. Ne4 Nxe4 14. Qxe4 b5 15.
+axb5 axb5 16. Qc6 Nd5 17. Bd2 Qe8 18. Qxe8 Rfxe8 19. b3 Nb6 20. Rfc1 h6 21. Be3
+Rxa1 22. Rxa1 Rc8 23. Rc1 Kf8 24. Kf1 Ke8 25. Ke2 Kd7 26. Kd3 Ra8 27. c4 Ra3 28.
+Rc3 b4 29. Bc1 Ra1 30. Rc2 Nc8 31. c5 Na7 32. Bd2 Nc6 33. cxd6 Bxd6 34. Rc1 Ra3
+35. Kc2 Ra2+ 36. Kd3 Rb2 37. Ra1 Rxb3+ 38. Kc4 Ra3 39. Rxa3 bxa3 40. Kb3 f6 41.
+Bc1 Na5+ 42. Ka4 a2 43. Bb2 Nc4 44. Kb3 Nxb2 45. Kxb2 Kc6 46. Kxa2 Kd5 47. Kb3
+g5 48. Kc3 h5 49. Kd3 g4 50. hxg4 hxg4 51. Ne1 e5 52. Nc2 e4+ 53. Ke3 f5 54. g3
+Kc4 55. Ke2 Kc3 56. Ne3 f4 57. gxf4 Kxd4 58. Nxg4 Bxf4 59. Nf6 Be5 60. Nxe4 Kxe4
+61. f3+ Kf4 62. Kd3 Bd6 63. Kc4 Bc7 64. Kb5 Bb8 65. Kc6 Kg3 66. Kd7 Kxf3 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.21"]
+[Round "-"]
+[White "mishanick"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2977"]
+[BlackElo "2961"]
+[TimeControl "180"]
+[EndTime "4:58:05 PDT"]
+[Termination "Game drawn - insufficient material"]
+
+1. d4 Nf6 2. c4 e5 3. dxe5 Ng4 4. Bf4 Nc6 5. Nf3 Bb4+ 6. Nbd2 Qe7 7. a3 Ncxe5 8.
+Nxe5 Nxe5 9. e3 Bxd2+ 10. Qxd2 d6 11. Be2 O-O 12. O-O b6 13. b4 Bb7 14. Rac1
+Rad8 15. Qc3 Ng6 16. Bg3 f5 17. Rfe1 Be4 18. c5 dxc5 19. bxc5 Kh8 20. cxb6 cxb6
+21. Qb4 Qxb4 22. axb4 Rf7 23. Red1 Rxd1+ 24. Rxd1 h6 25. Bc4 Rf8 26. f3 f4 27.
+exf4 Bf5 28. Rd4 h5 29. Bf2 Rc8 30. g3 Bh3 31. Be3 Ne7 32. Bd3 Nf5 33. Bxf5 Bxf5
+34. Rd5 g6 35. Kf2 Rc2+ 36. Bd2 a5 37. bxa5 bxa5 38. Ke3 a4 39. Ra5 Ra2 40. h4
+Kg8 41. Bc3 Kf7 42. Ra6 Ke7 43. g4 hxg4 44. fxg4 Bxg4 45. Rxg6 Bf5 46. Ra6 Rh2
+47. Bf6+ Kf7 48. Be5 Bd7 49. f5 Rxh4 50. Ra7 Ke8 51. f6 a3 52. Bd6 Ra4 53. f7+
+Kxf7 54. Rxa4 Bxa4 55. Bxa3 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.24"]
+[Round "-"]
+[White "AryanTari"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2914"]
+[BlackElo "3008"]
+[TimeControl "180+1"]
+[EndTime "3:55:54 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. e4 c5 2. Nf3 d6 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 Nf6 6. g3 g6 7. Bg2 Nxd4 8.
+Qxd4 Bg7 9. Be3 O-O 10. Qd2 Ng4 11. Bf4 Ne5 12. O-O Nc4 13. Qc1 Be6 14. Bh6 Bxh6
+15. Qxh6 Nxb2 16. Rab1 Nc4 17. Rxb7 Na5 18. Rb2 Rc8 19. Nd5 Bxd5 20. exd5 Nc4
+21. Rb7 Rc7 22. Rxc7 Qxc7 23. Re1 Ne5 24. Qd2 Rb8 25. c3 a5 26. h3 a4 27. f4 Nc4
+28. Qe2 Kf8 29. Bf1 Qa7+ 30. Qf2 Qxf2+ 31. Kxf2 Na5 32. Bd3 a3 33. Ke3 Ke8 34.
+Rb1 Nc4+ 35. Kd4 Nb2 36. Bc2 Kd7 37. Re1 Ra8 38. Bb3 Na4 39. Bxa4+ Rxa4+ 40. c4
+Rb4 41. Kc3 Rb2 42. Re3 h5 43. h4 Rxa2 44. Kb3 Ra1 45. Ka4 a2 46. Ra3 Rg1 47.
+Rxa2 Rxg3 48. Rb2 Rg4 49. Rb7+ Kd8 50. Kb5 Rxf4 51. c5 dxc5 52. Kc6 Rf6+ 53.
+Kxc5 Rd6 54. Rb8+ Kc7 55. Rf8 Rf6 56. Re8 Kd7 57. Ra8 Rf1 58. Ra7+ Kd8 59. Ra8+
+Kc7 60. Ra7+ Kd8 61. Ra8+ Kd7 62. Ra7+ Kd8 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.30"]
+[Round "-"]
+[White "GMSrinath"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2795"]
+[BlackElo "3009"]
+[TimeControl "180"]
+[EndTime "10:05:40 PDT"]
+[Termination "Game drawn by agreement"]
+
+1. d4 Nf6 2. Bg5 d5 3. e3 c5 4. Bxf6 gxf6 5. dxc5 Nc6 6. Nf3 e6 7. c4 dxc4 8.
+Qxd8+ Kxd8 9. Bxc4 Bxc5 10. Ke2 Ke7 11. Nbd2 a6 12. Rac1 Ba7 13. Bxa6 Bb6 14.
+Bc4 Bd7 15. Rhd1 Na5 16. a3 Ba4 17. b3 Bd7 18. a4 Rhg8 19. g3 Rgc8 20. Bd3 Bc5
+21. Rc2 Bb4 22. Rdc1 Rxc2 23. Rxc2 f5 24. h4 Bd6 25. Nd4 Nc6 26. Nxc6+ Bxc6 27.
+Nc4 Bc7 28. Na3 Bd6 29. Nb5 Be5 30. Bc4 Rd8 31. Rd2 Bf3+ 32. Ke1 Rc8 33. Nd4 Be4
+34. Ke2 Bd6 35. f3 Bc6 36. Nxc6+ Rxc6 37. Kf2 Bc5 38. Rd3 Rc8 39. Ke2 Rg8 40.
+Kf2 Rc8 41. g4 f4 42. Ke2 fxe3 43. Bb5 Rc7 44. Rc3 Kd6 45. b4 Bxb4 46. Rxc7 Kxc7
+47. Kxe3 Kd6 48. Kd3 Be1 49. h5 Ke5 50. Ke2 Bh4 51. Be8 f5 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.30"]
+[Round "-"]
+[White "GMSrinath"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2795"]
+[BlackElo "3009"]
+[TimeControl "180"]
+[EndTime "10:30:57 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. Nf3 d5 2. b3 Nf6 3. Bb2 c5 4. e3 a6 5. c4 Nc6 6. cxd5 Nxd5 7. Be2 f6 8. d4
+cxd4 9. Nxd4 Nxd4 10. Qxd4 e5 11. Qd3 Bb4+ 12. Nd2 O-O 13. Rd1 Be6 14. O-O Qe7
+15. Ne4 Rfd8 16. Qb1 b5 17. Bd3 f5 18. Ng3 e4 19. Bc2 Nc3 20. Rxd8+ Rxd8 21. Qa1
+Rc8 22. a3 Nd5 23. Bxe4 fxe4 24. axb4 Nxb4 25. Nh5 Qg5 26. Nf4 Bf7 27. Rc1 Rd8
+28. h4 Qh6 29. Rc7 Nd3 30. Bxg7 Qd6 31. Ra7 Nxf4 32. exf4 Qd1+ 33. Kh2 Qxa1 34.
+Bxa1 Bxb3 35. Rxa6 Rd2 36. Kg3 Rd3+ 37. Kg4 Rd2 38. Be5 Rxf2 39. Kf5 e3 40. Kf6
+h5 41. g4 Rc2 42. Ra8+ Kh7 43. Ra7+ Kg8 44. Ra8+ Kh7 45. Ra7+ Kg8 46. Ra8+
+1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.05.30"]
+[Round "-"]
+[White "viditchess"]
+[Black "GMSrinath"]
+[Result "1/2-1/2"]
+[WhiteElo "2873"]
+[BlackElo "2838"]
+[TimeControl "60"]
+[EndTime "11:03:30 PDT"]
+[Termination "Game drawn by agreement"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 d5 5. g3 O-O 6. Bg2 dxc4 7. O-O Nc6 8. a3
+Bxc3 9. bxc3 Rb8 10. Bg5 h6 11. Bxf6 Qxf6 12. Nd2 e5 13. e3 Rd8 14. Nxc4 exd4
+15. cxd4 Ne7 16. Rc1 c5 17. Qa4 cxd4 18. Qxa7 Be6 19. exd4 Qxd4 20. Qxd4 Rxd4
+21. Ne3 Rd3 22. a4 Ra3 23. Rc7 Ng6 24. Rxb7 Rxb7 25. Bxb7 Rxa4 1/2-1/2
+
+[Event "*** SCC Grand Prix: Titled Tuesday Blitz"]
+[Site "Chess.com"]
+[Date "2020.06.16"]
+[Round "6"]
+[White "viditchess"]
+[Black "Msb2"]
+[Result "1/2-1/2"]
+[WhiteElo "3016"]
+[BlackElo "2859"]
+[TimeControl "180+1"]
+[EndTime "10:04:00 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Bf4 Nc6 5. e3 Nf6 6. Nc3 a6 7. Be2 Bf5 8. Nf3
+e6 9. Qb3 Nh5 10. Bg5 Nf6 11. Ne5 Bd6 12. Qxb7 Nxe5 13. dxe5 Bxe5 14. Qc6+ Kf8
+15. O-O h6 16. Bh4 g5 17. Bg3 Bxg3 18. fxg3 Kg7 19. Qc5 Rb8 20. b3 Qb6 21. Na4
+Qxc5 22. Nxc5 a5 23. Rac1 Rhc8 24. Na6 Ra8 25. Nc7 Rab8 26. Na6 Ra8 27. Nc7 Rab8
+28. Na6 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.06.18"]
+[Round "-"]
+[White "samayraina"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "928"]
+[BlackElo "2892"]
+[TimeControl "60"]
+[EndTime "13:41:07 PDT"]
+[Termination "Game drawn - timeout vs insufficient material"]
+
+1. e4 c5 2. Nc3 Nc6 3. Nf3 g6 4. Bb5 Bg7 5. d3 Nd4 6. Nxd4 cxd4 7. Nd5 e6 8. Nf4
+Qa5+ 9. Bd2 Qxb5 10. Kf1 Qc6 11. Qf3 Ne7 12. Ke2 O-O 13. Rhc1 d5 14. c3 dxe4 15.
+dxe4 Qa6+ 16. c4 Bd7 17. b3 Nc6 18. a3 d3+ 19. Nxd3 Nd4+ 20. Ke3 Nxf3 21. gxf3
+Rad8 22. Nc5 Bd4+ 23. Kxd4 Qb6 24. Be3 Ba4+ 25. Kc3 Bc6 26. Nxe6 fxe6 27. Bxb6
+axb6 28. Rd1 Rxf3+ 29. Kc2 Rxd1 30. Rxd1 Rxf2+ 31. Rd2 Rf3 32. Re2 Kg7 33. h4
+Kh6 34. b4 Rf4 35. Kd3 Bxe4+ 36. Rxe4 Rxe4 37. Kxe4 Kh5 38. Ke5 Kxh4 39. Kxe6 g5
+40. c5 g4 41. cxb6 g3 42. Kd7 g2 43. Kc7 g1=Q 44. Kxb7 Qd4 45. Ka6 Qc4+ 46. Kb7
+Qb5 47. Ka7 Qd7+ 48. Ka8 Qa4+ 49. Kb8 Qxa3 50. Kc8 Qxb4 51. Kd8 Qxb6+ 52. Ke8
+Kg5 53. Kf8 Qf6+ 54. Kg8 h5 55. Kh7 h4 56. Kg8 h3 57. Kh7 h2 58. Kg8 Kf5 59. Kh7
+h1=Q+ 60. Kg8 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.06.22"]
+[Round "-"]
+[White "samayraina"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "1095"]
+[BlackElo "2636"]
+[TimeControl "900+10"]
+[EndTime "8:01:04 PDT"]
+[Termination "Game drawn - insufficient material"]
+
+1. c4 e5 2. e3 d6 3. Nc3 Be7 4. Be2 Nf6 5. Nf3 O-O 6. O-O Bg4 7. h3 Bh5 8. Nh2
+Bxe2 9. Nxe2 Nbd7 10. f4 exf4 11. exf4 Nb6 12. b3 d5 13. cxd5 Bd6 14. d3 Nbxd5
+15. Bd2 Nb4 16. Qb1 Bc5+ 17. Kh1 Re8 18. Ng3 Nxd3 19. b4 Bb6 20. Nf3 Rc8 21. a3
+Qd5 22. Be1 Rcd8 23. Kh2 Qc4 24. Ra2 Nxe1 25. Nxe1 Re3 26. Rf3 Rxe1 27. Qxe1 Re8
+28. Qd2 Bd4 29. Rc2 Qd5 30. Rcc3 Bg1+ 31. Kxg1 Qxd2 32. Rxc7 Qd4+ 33. Kh2 Rb8
+34. Rfc3 Rf8 35. Rc8 Re8 36. Ne2 Qd7 37. R8c7 Qd6 38. Rc8 Qf8 39. Rxe8 Nxe8 40.
+Rc8 Qe7 41. Nd4 Qd7 42. Rc4 Qd8 43. Nf5 g6 44. Nh6+ Kg7 45. Ng4 Qe7 46. Rc2 Nf6
+47. g3 Qe4 48. Rf2 Qd4 49. Ne3 Qxe3 50. Kg2 Qxf2+ 51. Kxf2 Ne4+ 52. Kf3 Nc3 53.
+g4 Nb1 54. Ke4 Nxa3 55. f5 a5 56. bxa5 gxf5+ 57. gxf5 Nc4 58. Kd5 Nxa5 59. h4
+Nc4 60. Kxc4 b5+ 61. Kxb5 h5 62. Kc5 Kf6 63. Kd5 Kxf5 64. Kd4 Kg4 65. Kd3 Kxh4
+66. Ke3 Kg3 67. Kd2 Kf2 68. Kd3 Kf3 69. Kd4 h4 70. Ke5 h3 71. Kf6 h2 72. Kxf7
+h1=Q 73. Kg7 Qh5 74. Kg8 Kf4 75. Kf8 Ke5 76. Kg8 Kf6 77. Kf8 Qe8+ 78. Kxe8
+1/2-1/2
+
+[Event "*** SCC Grand Prix: Titled Tuesday Blitz"]
+[Site "Chess.com"]
+[Date "2020.06.23"]
+[Round "4"]
+[White "viditchess"]
+[Black "gmcorrales"]
+[Result "1/2-1/2"]
+[WhiteElo "3020"]
+[BlackElo "2822"]
+[TimeControl "180+1"]
+[EndTime "10:37:46 PDT"]
+[Termination "Game drawn by agreement"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. Nf3 O-O 6. O-O Nc6 7. Na3 Re8 8. Bf4
+dxc4 9. Nxc4 Nd5 10. Bg5 Nb6 11. Nxb6 axb6 12. Be3 Be6 13. a3 Bd5 14. Rc1 Rb8
+15. Qc2 Bxf3 16. Bxf3 Nxd4 17. Bxd4 Qxd4 18. Qxc7 Qxb2 19. Rb1 Qxa3 20. Rxb6
+Rec8 21. Qd7 Rd8 22. Qb5 Qa7 23. Rxb7 Rxb7 24. Qxb7 Qxb7 25. Bxb7 1/2-1/2
+
+[Event "*** SCC Grand Prix: Titled Tuesday Blitz"]
+[Site "Chess.com"]
+[Date "2020.07.07"]
+[Round "5"]
+[White "Elshan1985"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2841"]
+[BlackElo "3019"]
+[TimeControl "180+1"]
+[EndTime "10:55:07 PDT"]
+[Termination "Game drawn by agreement"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. c4 Nf6 5. Nc3 e6 6. O-O Be7 7. d4 cxd4 8. Nxd4
+O-O 9. Bxd7 Bxd7 10. b3 a6 11. Bb2 Rc8 12. Qe2 Qa5 13. Rac1 Qh5 14. Qxh5 Nxh5
+15. Nde2 b5 16. cxb5 axb5 17. Rfd1 Nf6 18. f3 b4 19. Nb1 Ra8 20. a4 bxa3 21.
+Bxa3 Ra6 22. e5 Nd5 23. Bxd6 Bxd6 24. exd6 Rxd6 25. Nbc3 Nxc3 26. Nxc3 Rxd1+ 27.
+Rxd1 Bc6 28. Rd4 Rb8 29. Rc4 Bd7 30. b4 Kf8 31. Kf2 Ke7 32. Ke3 e5 33. b5 f5 34.
+g4 g6 35. gxf5 gxf5 36. Rh4 Kd6 37. Rxh7 Bxb5 38. Rh6+ Kc5 39. Re6 Re8 40. Rxe8
+Bxe8 41. f4 Kd6 42. Ne2 Ke6 43. Ng3 1/2-1/2
+
+[Event "*** SCC Grand Prix: Titled Tuesday Blitz"]
+[Site "Chess.com"]
+[Date "2020.07.07"]
+[Round "6"]
+[White "viditchess"]
+[Black "Guenplen"]
+[Result "1/2-1/2"]
+[WhiteElo "3016"]
+[BlackElo "2905"]
+[TimeControl "180+1"]
+[EndTime "11:07:32 PDT"]
+[Termination "Game drawn by stalemate"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 Be7 5. Bg2 O-O 6. O-O Nbd7 7. Qc2 c6 8. Rd1
+b6 9. Nc3 Ba6 10. cxd5 cxd5 11. Bf4 b5 12. a3 Rc8 13. Qb3 b4 14. axb4 Bc4 15.
+Qc2 a6 16. b3 Bb5 17. Qb2 Bxb4 18. Nxb5 axb5 19. Rdc1 Ne4 20. Rxc8 Qxc8 21. Rc1
+Qa6 22. Qc2 h6 23. Qd3 Ra8 24. Bf1 Ba3 25. Rc7 Ndf6 26. Ne5 Bd6 27. Rc1 Qa3 28.
+f3 Bxe5 29. dxe5 Nc5 30. Qxb5 Nfd7 31. b4 g5 32. Bd2 Qb2 33. Rd1 Qc2 34. bxc5
+Qxd1 35. Qxd7 Ra1 36. Kf2 Qxf1+ 37. Ke3 Qg1+ 38. Kd3 Ra3+ 39. Bc3 Qd1+ 40. Ke3
+Rxc3+ 41. Kf2 Qd4+ 42. Kg2 Qxc5 43. Qd8+ Qf8 44. Qf6 Rc2 45. Kf2 Qg7 46. Qd8+
+Qf8 47. Qf6 Qc5+ 48. Kf1 Qe3 49. Qd8+ Kh7 50. Kg2 Qxe2+ 51. Kh3 Qxf3 52. Qg8+
+Kxg8 1/2-1/2
+
+[Event "*** SCC Grand Prix: Titled Tuesday Blitz"]
+[Site "Chess.com"]
+[Date "2020.07.07"]
+[Round "7"]
+[White "fighter2jz"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2822"]
+[BlackElo "3012"]
+[TimeControl "180+1"]
+[EndTime "11:20:29 PDT"]
+[Termination "Game drawn - insufficient material"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Be2 e5 7. Nb3 Be7 8. O-O
+O-O 9. f4 a5 10. a4 Be6 11. f5 Bxb3 12. cxb3 Nb4 13. Bc4 h6 14. Kh1 Rc8 15. Be3
+Qc7 16. Rc1 Qb8 17. Qf3 Nh7 18. Rcd1 Nf6 19. Rg1 Nh7 20. g4 Bh4 21. Qh3 Bg5 22.
+Bf2 Qc7 23. Qg3 Qe7 24. h4 Bf4 25. Qf3 Qf6 26. Ne2 Nc6 27. Nxf4 exf4 28. Qxf4
+Qxb2 29. g5 Kh8 30. gxh6 g6 31. Rxd6 Rce8 32. Rgd1 gxf5 33. Rxc6 Rxe4 34. Qxf5
+bxc6 35. Qxe4 Qxf2 36. Rf1 Qg3 37. Qd4+ f6 38. Be6 Re8 39. Bf5 c5 40. Qf4 Re3
+41. Qxg3 Rxg3 42. Bxh7 Kxh7 43. Rxf6 Rxb3 44. Rc6 Rb4 45. Rxc5 Rxh4+ 46. Kg2
+Rxa4 47. Rc6 Rb4 48. Kg3 a4 49. Ra6 Rb3+ 50. Kg4 a3 51. Kg5 Rg3+ 52. Kf5 Rf3+
+53. Ke5 Rh3 54. Kd4 Rxh6 55. Rxh6+ Kxh6 56. Kc3 Kg5 57. Kb3 Kf4 58. Kxa3 1/2-1/2
+
+[Event "*** SCC Grand Prix: Titled Tuesday Blitz"]
+[Site "Chess.com"]
+[Date "2020.07.07"]
+[Round "9"]
+[White "viditchess"]
+[Black "Onischuk_V"]
+[Result "1/2-1/2"]
+[WhiteElo "3013"]
+[BlackElo "2898"]
+[TimeControl "180+1"]
+[EndTime "11:49:02 PDT"]
+[Termination "Game drawn - insufficient material"]
+
+1. d4 d6 2. Nf3 g6 3. g3 Bg7 4. Bg2 Nf6 5. c4 O-O 6. Nc3 Nbd7 7. O-O e5 8. e4 c6
+9. Be3 Qe7 10. Re1 b6 11. h3 Bb7 12. Qc2 Rfe8 13. Rad1 Rac8 14. a3 a6 15. dxe5
+dxe5 16. b4 c5 17. b5 a5 18. Nd5 Qf8 19. Nd2 h6 20. h4 Red8 21. Bh3 Rb8 22. a4
+Ba8 23. Nb1 Ne8 24. Nbc3 Ndf6 25. Nxf6+ Nxf6 26. f3 Ne8 27. Bd7 Nd6 28. Bc6 Nxc4
+29. Nd5 Nxe3 30. Rxe3 Rd6 31. Bxa8 Rxa8 32. Red3 Kh7 33. g4 Rc8 34. Qc4 Re6 35.
+Ne3 Qe7 36. Ng2 Qe8 37. Rd7 Bf8 38. R1d5 Be7 39. Kh2 Kg7 40. Kh3 Rd8 41. Rxd8
+Bxd8 42. Ne3 Qe7 43. Ng2 Rd6 44. Kg3 Rxd5 45. Qxd5 Qc7 46. Ne3 Qe7 47. Ng2 Qf6
+48. Kf2 Qe7 49. Ke2 Bc7 50. Kd3 c4+ 51. Qxc4 Bd6 52. h5 Bc5 53. hxg6 fxg6 54.
+Qd5 Qf6 55. Ke2 h5 56. Qd7+ Qf7 57. Qxf7+ Kxf7 58. gxh5 gxh5 59. Nh4 Kf6 60. Nf5
+Kg5 61. Kf1 Kf4 62. Kg2 Bd4 63. Ne7 Ke3 64. Nc6 Kd3 65. f4 exf4 66. Kf3 Bc5 67.
+e5 Kc4 68. e6 Kb3 69. Ne5 Kxa4 70. Nd7 Bd6 71. Nxb6+ Kxb5 72. Nd5 Bc5 73. Nc3+
+Kc4 74. Na4 Bd6 75. Nb6+ Kb5 76. Nd5 a4 77. Nc3+ Kb4 78. Nxa4 Kxa4 79. e7 Bxe7
+80. Kxf4 Kb4 81. Kg3 Kc4 82. Kg2 h4 83. Kh1 h3 84. Kh2 Bd6+ 85. Kxh3 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.07.10"]
+[Round "-"]
+[White "viditchess"]
+[Black "AnishOnYoutube"]
+[Result "1/2-1/2"]
+[WhiteElo "2895"]
+[BlackElo "2755"]
+[TimeControl "60"]
+[EndTime "8:22:56 PDT"]
+[Termination "Game drawn - insufficient material"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 Bg4 4. O-O c6 5. h3 Bh5 6. d3 Nbd7 7. Qe1 e5 8. e4
+dxe4 9. dxe4 Bc5 10. Nbd2 O-O 11. a4 Re8 12. Nc4 Qc7 13. b4 Bf8 14. Bb2 Bxf3 15.
+Bxf3 b5 16. Ne3 a5 17. bxa5 Qxa5 18. Qxa5 Rxa5 19. axb5 Rxb5 20. Bc3 Bb4 21.
+Bxb4 Rxb4 22. Ra6 Nxe4 23. Rxc6 Nd2 24. Bg4 Nf6 25. Rd1 Nxg4 26. hxg4 Ne4 27.
+Rc7 h6 28. Kg2 Nf6 29. c4 Rbb8 30. c5 Rbc8 31. Rxc8 Rxc8 32. Rc1 Rc6 33. Nf5 Kf8
+34. Nd6 Nd7 35. Ne4 Ke7 36. f4 exf4 37. gxf4 g6 38. Kf3 f5 39. gxf5 gxf5 40. Ng3
+Rxc5 41. Rxc5 Nxc5 42. Nxf5+ Kf6 43. Nxh6 Ne6 44. Ng4+ Kg6 45. f5+ Kxf5 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.07.10"]
+[Round "-"]
+[White "TRadjabov"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2733"]
+[BlackElo "2873"]
+[TimeControl "60"]
+[EndTime "8:50:07 PDT"]
+[Termination "Game drawn by stalemate"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d6 5. g3 O-O 6. Bg2 c5 7. O-O Nc6 8. dxc5
+dxc5 9. Be3 b6 10. Qa4 Bd7 11. Rfd1 Qc8 12. Qa3 Ng4 13. Bg5 h6 14. Bf4 e5 15.
+Bd2 f5 16. h3 Nf6 17. Nd5 e4 18. Nh2 Nxd5 19. cxd5 Nd4 20. d6 Nxe2+ 21. Kh1 Nd4
+22. Be3 Be6 23. Rac1 Qd7 24. Nf1 Qxd6 25. b4 Rac8 26. bxc5 bxc5 27. Nd2 Rc7 28.
+Nc4 Bxc4 29. Rxc4 g5 30. Rcxd4 Bxd4 31. Rxd4 Qe6 32. Rd1 f4 33. Bc1 e3 34. gxf4
+exf2 35. Qg3 Rd7 36. Rf1 Kh7 37. fxg5 hxg5 38. Qxg5 Rg7 39. Qh4+ Kg8 40. Bh6
+Rxg2 41. Kxg2 Rf6 42. Bg5 Qd5+ 43. Kh2 Rf5 44. Be3 Qe5+ 45. Qg3+ Qxg3+ 46. Kxg3
+Rd5 47. Bxf2 c4 48. Re1 Rd3+ 49. Re3 Rd1 50. Rc3 Ra1 51. Rxc4 Rxa2 52. Rg4+ Kf7
+53. Rf4+ Kg6 54. Bxa7 Rxa7 55. Rg4+ Kh7 56. Rf4 Kg8 57. Rh4 Rg7+ 58. Rg4 Kh7 59.
+Kh4 Rg6 60. Rxg6 Kxg6 61. Kg4 Kh6 62. h4 Kg6 63. h5+ Kh6 64. Kh4 Kh7 65. Kg4 Kg7
+66. Kh4 Kh7 67. Kg5 Kg7 68. h6+ Kh7 69. Kh5 Kh8 70. Kg6 Kg8 71. h7+ Kh8 72. Kh6
+1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.07.11"]
+[Round "-"]
+[White "AnishOnYoutube"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2803"]
+[BlackElo "2876"]
+[TimeControl "60"]
+[EndTime "8:54:22 PDT"]
+[Termination "Game drawn - insufficient material"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Be7 4. g3 d5 5. Bg2 c6 6. O-O Nbd7 7. Qc2 O-O 8. b3 b6
+9. Bb2 Bb7 10. Nc3 Rc8 11. e4 dxe4 12. Nxe4 Nxe4 13. Qxe4 Nf6 14. Qe2 c5 15.
+Rad1 Qc7 16. Ne5 Bxg2 17. Kxg2 Rfd8 18. Rfe1 cxd4 19. Bxd4 Bb4 20. Rf1 Bc5 21.
+Bc3 a5 22. Qf3 h6 23. h4 Be7 24. Rfe1 Rxd1 25. Rxd1 Bc5 26. Rd3 Rd8 27. Rxd8+
+Qxd8 28. Nc6 Qc7 29. Ne5 Bd6 30. Nd3 Nd7 31. Qa8+ Qb8 32. Qe4 Nc5 33. Qg4 Bf8
+34. Ne5 Qb7+ 35. Qf3 Qxf3+ 36. Kxf3 f6 37. Nc6 Kf7 38. Bd4 e5 39. Be3 Ke6 40. g4
+g6 41. h5 gxh5 42. gxh5 f5 43. Nd8+ Kf6 44. Bc1 e4+ 45. Ke2 Ne6 46. Bb2+ Ke7 47.
+Nxe6 Kxe6 48. Bd4 Bc5 49. Bg7 f4 50. Bxh6 Kf5 51. Kf1 Kg4 52. Bg7 Kxh5 53. Bb2
+Kg4 54. Ke2 f3+ 55. Kf1 Kf5 56. Bc1 Ke5 57. a3 Kd4 58. b4 axb4 59. axb4 Bxb4 60.
+Be3+ Kxc4 61. Bxb6 Kd3 62. Bc7 Bc3 63. Bg3 Bb2 64. Bf4 Bd4 65. Bg3 Bc3 66. Bf4
+Bf6 67. Bg3 Bd4 68. Bf4 Bxf2 69. Kxf2 e3+ 70. Bxe3 Ke4 71. Bd2 Kf5 72. Kxf3
+1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.08.12"]
+[Round "-"]
+[White "viditchess"]
+[Black "Bigfish1995"]
+[Result "1/2-1/2"]
+[WhiteElo "2953"]
+[BlackElo "2947"]
+[TimeControl "180+2"]
+[EndTime "8:03:01 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 d6 6. Nf3 Nc6 7. O-O a6 8. b3 Bf5
+9. Bb2 Ne4 10. Nd5 Bd7 11. Qc2 f5 12. Rad1 e6 13. Nc3 Nb4 14. Qb1 Bc6 15. a3
+Nxc3 16. Bxc3 Be4 17. Qb2 Nc6 18. d5 Bxc3 19. Qxc3 exd5 20. cxd5 Bxf3 21. exf3
+Ne5 22. f4 Ng4 23. Rfe1 Qd7 24. Re6 Qg7 25. Qd2 Rae8 26. Rde1 Nf6 27. a4 b6 28.
+b4 Rxe6 29. dxe6 Qe7 30. Bc6 d5 31. Qd4 Rd8 32. a5 bxa5 33. bxa5 Rd6 34. Ba8 Kg7
+35. Re5 c6 36. Qb6 Ng4 37. Re1 Rxe6 38. Rxe6 Qxe6 39. h3 Qe1+ 40. Kg2 Qe4+ 41.
+Kg1 Qe1+ 42. Kg2 Qe4+ 43. Kg1 Qe1+ 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.08.12"]
+[Round "-"]
+[White "rpragchess"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2648"]
+[BlackElo "2790"]
+[TimeControl "60"]
+[EndTime "9:25:53 PDT"]
+[Termination "Game drawn - timeout vs insufficient material"]
+
+1. c4 d6 2. g3 c5 3. Bg2 Nc6 4. Nc3 g6 5. Nf3 Bg7 6. O-O e5 7. d3 Nge7 8. Bg5 f6
+9. Be3 O-O 10. Rb1 Be6 11. Nd2 b6 12. a3 d5 13. cxd5 Nxd5 14. Nxd5 Bxd5 15. b4
+Bxg2 16. Kxg2 Qd5+ 17. f3 cxb4 18. axb4 Rfc8 19. Qb3 Qxb3 20. Rxb3 Bf8 21. b5
+Na5 22. Rb2 Kf7 23. f4 exf4 24. Bxf4 Ke6 25. Ne4 Be7 26. g4 Rd8 27. h4 Rac8 28.
+Bg3 Rd4 29. Rf3 Rc1 30. Bf4 Rc8 31. Bd2 Nb7 32. Bc3 Rxe4 33. dxe4 Nc5 34. Ra2
+Rc7 35. Bd4 Nxe4 36. Re3 f5 37. gxf5+ gxf5 38. Rd3 Bxh4 39. Rh3 Bg5 40. Be3 h6
+41. Bxg5 hxg5 42. Rh6+ Ke5 43. Ra3 Kf4 44. Rf3+ Ke5 45. Rh8 g4 46. Re8+ Kf6 47.
+Rf8+ Kg6 48. R3xf5 Rc2 49. Rf4 Rxe2+ 50. Kf1 Ng3+ 51. Kg1 Kg5 52. R4f7 Ne4 53.
+Rg8+ Kh4 54. Kf1 Ng3+ 55. Kg1 Ne4 56. Kf1 Ra2 57. Rf4 Nd2+ 58. Ke1 Nf3+ 59. Kd1
+Ne5 60. Re4 Nf3 61. Rexg4+ Kh5 62. R4g7 Rd2+ 63. Kc1 Rd6 64. Rh8+ Rh6 65. Rxh6+
+Kxh6 66. Rxa7 Nd4 67. Ra6 Kg5 68. Rxb6 Kf5 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.08.13"]
+[Round "-"]
+[White "ManuDavid18"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2821"]
+[BlackElo "2959"]
+[TimeControl "180"]
+[EndTime "8:27:19 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. Bc4 e6 5. d3 Nc6 6. Bb3 Be7 7. O-O O-O 8. Re1 e5
+9. h3 Be6 10. d4 cxd4 11. cxd4 exd4 12. Nxd4 Nxd4 13. Qxd4 Nd7 14. Nc3 Nc5 15.
+Bxe6 fxe6 16. Be3 Rc8 17. Rad1 a6 18. e5 d5 19. Qg4 Rc6 20. Ne2 Qe8 21. Nd4 Rb6
+22. b3 h5 23. Qe2 Ne4 24. Rc1 Bb4 25. Rf1 Bc5 26. Rfd1 Bxd4 27. Bxd4 Rc6 28.
+Rxc6 bxc6 29. Qxa6 c5 30. Be3 d4 31. Bc1 Rxf2 32. Rf1 Rxf1+ 33. Qxf1 Nc3 34. a4
+Qc6 35. Bd2 Ne4 36. Be1 Qd5 37. Qe2 d3 38. Qxh5 Qd7 39. a5 d2 40. Bxd2 Nxd2 41.
+a6 Ne4 42. a7 Qxa7 43. Qe8+ Kh7 44. Qh5+ Kg8 45. Qe8+ Kh7 46. Qh5+ Kg8 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.08.19"]
+[Round "-"]
+[White "gmmoranda"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2917"]
+[BlackElo "2967"]
+[TimeControl "180"]
+[EndTime "5:48:35 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. Nf3 Nf6 2. c4 c5 3. Nc3 b6 4. g3 Bb7 5. Bg2 g6 6. O-O Bg7 7. b3 O-O 8. Bb2 d6
+9. e3 Nbd7 10. d4 Ne4 11. Qe2 e6 12. Rfd1 Qe7 13. Rac1 Rfd8 14. Bh3 f5 15. Bg2
+Ndf6 16. h3 h6 17. d5 exd5 18. Nxd5 Bxd5 19. cxd5 g5 20. Ne1 Re8 21. Nd3 Qf7 22.
+Bxf6 Qxf6 23. Qc2 Re7 24. b4 Rae8 25. bxc5 bxc5 26. Re1 h5 27. Rb1 Bh6 28. Rb3
+h4 29. gxh4 gxh4 30. Kh1 Rg7 31. Rg1 Kh7 32. Rbb1 Reg8 33. Nf4 Bxf4 34. Bxe4
+Rxg1+ 35. Rxg1 Rxg1+ 36. Kxg1 fxe4 37. exf4 Qxf4 38. Qa4 Qg5+ 39. Kf1 Qe7 40.
+Qd1 Qe5 41. Qg4 Qxd5 42. Qxh4+ Kg6 43. Qg4+ Kf6 44. Qf4+ Ke6 45. Qg4+ Qf5 46.
+Qg8+ Ke5 47. Qh8+ Kd5 48. Ke1 Kc4 49. Qe8 Kd4 50. Qa4+ Ke5 51. Qxa7 Qxh3 52.
+Qe7+ Kd5 53. Qb7+ Kd4 54. Qg7+ Kc4 55. Qf7+ d5 56. Qa7 Qc3+ 57. Kf1 Qc1+ 58. Kg2
+Qg5+ 59. Kf1 Qc1+ 60. Kg2 Qg5+ 61. Kf1 Kd4 62. Qa4+ c4 63. Qa7+ Ke5 64. Qb8+ Kf5
+65. Qc8+ Kf4 66. Qb8+ Qe5 67. Qf8+ Qf5 68. Qd6+ Qe5 69. Qf8+ Qf5 70. Qh6+ Qg5
+71. Qd6+ Qe5 72. Qf8+ 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.08.19"]
+[Round "-"]
+[White "SantoBlue"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2951"]
+[BlackElo "2987"]
+[TimeControl "180"]
+[EndTime "6:46:29 PDT"]
+[Termination "Game drawn - insufficient material"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. a3 Nc6 7. Be2 g6 8. Be3
+Bg7 9. h4 h5 10. f3 Ne5 11. Qd2 b5 12. O-O-O Qc7 13. Bg5 Bb7 14. Kb1 Rc8 15.
+Rhe1 O-O 16. Bh6 e6 17. Bxg7 Kxg7 18. Rh1 d5 19. exd5 Nxd5 20. Nxd5 Bxd5 21. g4
+Rh8 22. gxh5 Rxh5 23. f4 Nc4 24. Qc3 e5 25. Bxh5 Bxh1 26. Rxh1 exd4 27. Qxd4+
+Kg8 28. Bg4 Rd8 29. Qf6 Rd6 30. Qc3 Nd2+ 31. Kc1 Qxc3 32. bxc3 Ne4 33. Kb2 Nf2
+34. Rg1 Rf6 35. Bc8 Kf8 36. f5 Ne4 37. fxg6 fxg6 38. Re1 Nd6 39. Bh3 Nc4+ 40.
+Kb3 Rf4 41. Re6 Rxh4 42. Bg2 Rh2 43. Rxg6 Kf7 44. Rg3 Kf6 45. a4 Nd6 46. Bc6 Rh4
+47. Rf3+ Ke5 48. Re3+ Kf6 49. axb5 axb5 50. Bd7 Re4 51. Rd3 Ke7 52. Bc6 Rf4 53.
+Rd5 Ke6 54. Rc5 Rf1 55. Kb2 Nc4+ 56. Ka2 Kd6 57. Bg2 Kxc5 58. Bxf1 Ne3 59. Bd3
+b4 60. Kb3 bxc3 61. Kxc3 Nxc2 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.08.21"]
+[Round "-"]
+[White "LiemLe"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2691"]
+[BlackElo "2665"]
+[TimeControl "900+5"]
+[EndTime "2:35:46 PDT"]
+[Termination "Game drawn by agreement"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. g3 Bb4+ 5. Bd2 a5 6. Bg2 O-O 7. O-O dxc4 8. Qc2
+Bxd2 9. Qxd2 b5 10. a4 c6 11. Ne5 Nd5 12. Rd1 f6 13. Ng4 Qb6 14. e4 Nb4 15. Nc3
+Bb7 16. d5 e5 17. Ne3 Rd8 18. Qe2 Ba6 19. dxc6 N8xc6 20. axb5 Bxb5 21. Rxd8+
+Rxd8 22. Nxb5 Qxb5 23. Qxc4+ Qxc4 24. Nxc4 Nc2 25. Rc1 N2d4 26. Bf1 Rb8 27. Ra1
+g6 28. Nxa5 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.08.22"]
+[Round "-"]
+[White "GMSrinath"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2848"]
+[BlackElo "2987"]
+[TimeControl "300"]
+[EndTime "9:55:05 PDT"]
+[Termination "Game drawn by agreement"]
+
+1. d4 d6 2. Bf4 Nf6 3. h3 g6 4. e3 Bg7 5. Nf3 O-O 6. Bh2 Nbd7 7. c3 e5 8. dxe5
+dxe5 9. Nxe5 Qe7 10. Nxd7 Bxd7 11. Nd2 Bc6 12. Nf3 Rad8 13. Nd4 Be4 14. Qa4 c5
+15. Nf3 b6 16. Be2 Qb7 17. O-O 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.08.23"]
+[Round "-"]
+[White "viditchess"]
+[Black "Chefshouse"]
+[Result "1/2-1/2"]
+[WhiteElo "2632"]
+[BlackElo "2673"]
+[TimeControl "900+5"]
+[EndTime "3:18:08 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 dxc4 6. e4 h6 7. Bxf6 Qxf6 8.
+Bxc4 c5 9. O-O cxd4 10. Nb5 Qe7 11. Qxd4 O-O 12. Nxa7 Bc5 13. Nxc8 Rxc8 14. Qd3
+Nc6 15. Bb3 Rd8 16. Qe2 Nd4 17. Nxd4 Rxd4 18. Rad1 Rad8 19. Rxd4 Rxd4 20. Rd1
+Qf6 21. g3 Qe5 22. Bc2 Rxd1+ 23. Bxd1 g6 24. Kg2 Kg7 25. a4 Qd4 26. b3 b6 27.
+Bc2 h5 28. h4 Qc3 29. Bd1 Qd4 30. Bc2 Qc3 31. Bd1 Qd4 32. Bc2 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.08.30"]
+[Round "-"]
+[White "viditchess"]
+[Black "lachesisQ"]
+[Result "1/2-1/2"]
+[WhiteElo "2692"]
+[BlackElo "2878"]
+[TimeControl "900+5"]
+[EndTime "4:33:08 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Be3 c5 8.
+Qd2 Qa5 9. Nf3 O-O 10. Rc1 Bg4 11. d5 b5 12. Bxc5 Rc8 13. Bb4 Qc7 14. Nd4 a5 15.
+Ba3 b4 16. Bb2 Qb6 17. Bb5 e5 18. dxe6 Bxe6 19. Nxe6 fxe6 20. c4 Bxb2 21. Qxb2
+Nc6 22. Qf6 Nd4 23. Bd7 Rf8 24. Qe5 Rxf2 25. Kxf2 Rf8+ 26. Ke3 Nf5+ 27. Kd3 Qe3+
+28. Kc2 Nd4+ 29. Kb1 Qd3+ 30. Ka1 Rf2 31. Bxe6+ Kf8 32. Qd6+ Kg7 33. Qe7+ Kh8
+34. Qd8+ Kg7 35. Qe7+ Kh8 36. Qd8+ Kg7 37. Qe7+ 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.08.30"]
+[Round "-"]
+[White "viditchess"]
+[Black "Duhless"]
+[Result "1/2-1/2"]
+[WhiteElo "2707"]
+[BlackElo "2816"]
+[TimeControl "900+5"]
+[EndTime "5:16:16 PDT"]
+[Termination "Game drawn by agreement"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 d6 6. Nf3 Nc6 7. O-O e5 8. dxe5
+dxe5 9. Bg5 h6 10. Qxd8 Rxd8 11. Bxf6 Bxf6 12. Nd5 Kg7 13. Nxc7 Rb8 14. Nd5 e4
+15. Nd2 e3 16. fxe3 Bxb2 17. Rab1 Ba3 18. Nb3 Bf5 19. Rbd1 Rbc8 20. Nd4 Nxd4 21.
+exd4 Be6 22. Rd3 Bf8 23. Ne3 Bxc4 24. Nxc4 Rxc4 25. Bxb7 Rcxd4 26. Rfd1 Bc5 27.
+Rxd4 Rxd4 28. Rxd4 Bxd4+ 29. Kg2 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.09.09"]
+[Round "-"]
+[White "AnishOnYoutube"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2948"]
+[BlackElo "2987"]
+[TimeControl "300"]
+[EndTime "11:21:14 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. cxd5 exd5 6. Bg5 h6 7. Bh4 O-O 8. e3
+Bf5 9. Qb3 Bxc3+ 10. bxc3 Nbd7 11. Be2 c5 12. dxc5 Nxc5 13. Qb4 Rc8 14. O-O Re8
+15. Nd4 Bd7 16. c4 a5 17. Qa3 g5 18. Bg3 Nce4 19. Rfc1 h5 20. c5 h4 21. Bd6 Nxd6
+22. cxd6 Ne4 23. Bf3 Qf6 24. Rxc8 Rxc8 25. Qxa5 Nxd6 26. Qxd5 h3 27. Rd1 g4 28.
+Be2 Re8 29. Nf5 Bxf5 30. Qxd6 Qxd6 31. Rxd6 Rc8 32. gxh3 gxh3 33. Rd1 Rc2 34.
+Bf3 b6 35. Bd5 Kg7 36. Bb3 Rb2 37. Kf1 Kf6 38. Ke1 Ke7 39. Rd4 Rb1+ 40. Rd1 Rb2
+41. Rd2 Rb1+ 42. Rd1 Rb2 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.10.25"]
+[Round "-"]
+[White "viditchess"]
+[Black "Duhless"]
+[Result "1/2-1/2"]
+[WhiteElo "3011"]
+[BlackElo "2990"]
+[TimeControl "180+1"]
+[EndTime "9:41:16 PDT"]
+[Termination "Game drawn by agreement"]
+
+1. d4 Nf6 2. c4 d6 3. Nf3 g6 4. g3 Bg7 5. Bg2 O-O 6. Nc3 Nc6 7. O-O e5 8. dxe5
+dxe5 9. Bg5 h6 10. Qxd8 Rxd8 11. Bxf6 Bxf6 12. Nd5 Kg7 13. Nxc7 Rb8 14. e4 Be7
+15. Nd5 Bc5 16. h3 Be6 17. Rfd1 a5 18. b3 b6 19. Rd2 Rd7 20. Rad1 Rbd8 21. Nc3
+Rxd2 22. Rxd2 Nd4 23. Nxd4 Rxd4 24. Rxd4 Bxd4 25. Nb5 Bc5 26. Kf1 Kf8 27. Ke2
+Ke7 28. f4 f6 29. h4 exf4 30. gxf4 g5 31. hxg5 hxg5 32. Kf3 gxf4 33. Kxf4 Bd7
+34. Nc3 Bd6+ 35. Ke3 Bc6 36. Bh3 Bb4 37. Nd5+ Bxd5 38. exd5 Kd6 39. Ke4 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.10.25"]
+[Round "-"]
+[White "viditchess"]
+[Black "Duhless"]
+[Result "1/2-1/2"]
+[WhiteElo "3021"]
+[BlackElo "2983"]
+[TimeControl "180+1"]
+[EndTime "9:56:53 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. g3 b6 5. Bg2 Bb7 6. O-O O-O 7. Qc2 c5 8. d5 b5
+9. e4 bxc4 10. Nfd2 Na6 11. Nxc4 d6 12. Nc3 Nb4 13. Qe2 Ba6 14. Rb1 Nd7 15. Nd1
+Nxa2 16. Bd2 Rb8 17. Nde3 Ne5 18. b3 Nb4 19. f4 Nd7 20. Kh1 Bb5 21. Rfc1 a5 22.
+Bc3 Bxc3 23. Rxc3 a4 24. bxa4 Bxa4 25. Ra1 Bb5 26. Qd2 Ra8 27. Rca3 Rxa3 28.
+Rxa3 Nb6 29. Nxb6 Qxb6 30. e5 Qc7 31. Qc3 Bd7 32. Bf1 Rb8 33. h4 e6 34. dxe6
+Bxe6 35. exd6 Qxd6 36. Bg2 Nd5 37. Qd2 Rb1+ 38. Kh2 Nxe3 39. Qxd6 Ng4+ 40. Kh3
+Nf2+ 41. Kh2 Ng4+ 42. Kh3 Nf2+ 43. Kh2 Ng4+ 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.10.25"]
+[Round "-"]
+[White "viditchess"]
+[Black "Duhless"]
+[Result "1/2-1/2"]
+[WhiteElo "2925"]
+[BlackElo "2933"]
+[TimeControl "60+1"]
+[EndTime "10:19:15 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. Nf3 g6 2. g3 Bg7 3. Bg2 Nf6 4. O-O O-O 5. b3 b6 6. Bb2 Bb7 7. c4 c5 8. Nc3 d6
+9. d4 cxd4 10. Qxd4 Nbd7 11. Rfd1 Rc8 12. Rac1 a6 13. Bh3 b5 14. cxb5 Ne4 15.
+Qe3 Nxc3 16. Bxc3 Rxc3 17. Rxc3 Bxc3 18. Qxc3 axb5 19. Nd4 Nf6 20. Nxb5 Qb6 21.
+Nd4 Ne4 22. Qe3 Ra8 23. a4 e5 24. Nb5 Qxe3 25. fxe3 Bc6 26. Bg2 d5 27. Nc7 Rb8
+28. Nxd5 Bxd5 29. Rxd5 Nc3 30. Rxe5 Rxb3 31. a5 Ra3 32. Bb7 Nxe2+ 33. Kf2 Nc1
+34. Kf3 Nb3 35. a6 Nd2+ 36. Ke2 Nc4 37. Re7 Kf8 38. Rc7 Nd6 39. Rd7 Nc4 40. e4
+Ra2+ 41. Ke1 Ne5 42. Rc7 Nd3+ 43. Kd1 Nb4 44. Rc8+ Kg7 45. Rc4 Nxa6 46. Ke1 Nb8
+47. Bd5 Ra7 48. Ke2 Nd7 49. Rc2 Ne5 50. Kf2 Re7 51. Kg2 Kf6 52. h3 Kg7 53. Rb2
+Nd3 54. Rb7 Rxb7 55. Bxb7 Kf6 56. Kf3 Ke5 57. Ke3 Nc5 58. Bc6 f6 59. Ba8 Ne6 60.
+Bd5 Ng5 61. h4 Ne6 62. Bxe6 Kxe6 63. Kf4 Kd6 64. g4 h6 65. Ke3 Ke6 66. Kd4 Kd6
+67. Kd3 Ke5 68. Ke3 g5 69. h5 Ke6 70. Ke2 Kd6 71. Kd2 Ke5 72. Ke3 Ke6 73. Ke2
+Ke7 74. Kd2 Kd7 75. Ke2 Kc6 76. Ke3 Kd6 77. Kd2 Kc5 78. Kc3 Kd6 79. Kd2 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.10.25"]
+[Round "-"]
+[White "Duhless"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "2932"]
+[BlackElo "2925"]
+[TimeControl "60+1"]
+[EndTime "10:30:49 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 e6 4. g3 Bb4+ 5. Nbd2 O-O 6. Bg2 b6 7. O-O Bb7 8. Ne5
+a5 9. cxd5 Bxd5 10. Ndf3 Nbd7 11. Bg5 h6 12. Bxf6 Nxf6 13. a3 Be7 14. Rc1 c5 15.
+e3 Rc8 16. Qe2 Qc7 17. dxc5 bxc5 18. Rfd1 Qb7 19. Nc4 a4 20. Nh4 Rfd8 21. Bxd5
+exd5 22. Ne5 Ne4 23. Nhf3 Bf6 24. Rc2 h5 25. h4 c4 26. Rdc1 Qe7 27. Nxc4 dxc4
+28. Rxc4 Qe6 29. Rxc8 Rxc8 30. Rxc8+ Qxc8 31. Qd3 Qc6 32. Nd4 Bxd4 33. exd4 Qd5
+34. Qa6 Qxd4 35. Qc8+ Kh7 36. Qf5+ Kh6 37. Qxf7 Nf6 38. Qb7 Kg6 39. Qf3 Qe4 40.
+Qd1 Nd5 41. f3 Qe3+ 42. Kg2 Nf6 43. Qc2+ Kh6 44. Qxa4 Qe2+ 45. Kh3 Qf1+ 46. Kh2
+Qf2+ 47. Kh3 Qxf3 48. Qf4+ Qxf4 49. gxf4 Kg6 50. a4 Nd5 51. Kg3 Kf5 52. a5 Ke4
+53. a6 g6 54. a7 Nb6 55. b4 Ke3 56. b5 Ke4 57. Kf2 Kxf4 58. Ke2 Ke4 59. Kd2 Kd4
+60. Ke2 Ke4 61. Kd2 Kd4 62. Ke2 Ke4 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.10.25"]
+[Round "-"]
+[White "viditchess"]
+[Black "FairChess_on_YouTube"]
+[Result "1/2-1/2"]
+[WhiteElo "3038"]
+[BlackElo "2980"]
+[TimeControl "300+1"]
+[EndTime "11:15:08 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Bf4 Nc6 5. e3 Nf6 6. Nc3 a6 7. Be2 Bf5 8. Nf3
+e6 9. Qb3 Ra7 10. Ne5 Nxe5 11. Bxe5 Nd7 12. Bg3 Be7 13. O-O O-O 14. Rac1 b5 15.
+a4 bxa4 16. Nxa4 Qa5 17. Ra1 Qb4 18. Qxb4 Bxb4 19. Rfc1 h6 20. Rc6 a5 21. f3 Nb8
+22. Rb6 Nd7 23. Ra6 Rb7 24. Rc6 Bd2 25. Bf2 Rb3 26. Rd1 Bxe3 27. Bxe3 Rxe3 28.
+Nc3 Rb8 29. Rd2 Nb6 30. Rc5 Nc4 31. Bxc4 dxc4 32. Rxc4 Rd3 33. Rxd3 Bxd3 34. Ra4
+Rxb2 35. Rxa5 Rc2 36. Rc5 g5 37. h3 Kg7 38. Na4 Rd2 39. Nc3 Rc2 40. Na4 Rc4 41.
+Rxc4 Bxc4 42. Kf2 f5 43. Nc5 f4 44. Nd7 Bb5 45. Ne5 h5 46. g3 h4 47. gxf4 gxf4
+48. Kg2 Kf6 49. Ng4+ Kf5 50. Ne5 Kf6 51. Ng4+ Kf5 52. Ne5 Kf6 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.10.25"]
+[Round "-"]
+[White "viditchess"]
+[Black "FairChess_on_YouTube"]
+[Result "1/2-1/2"]
+[WhiteElo "3044"]
+[BlackElo "2975"]
+[TimeControl "180+1"]
+[EndTime "11:32:19 PDT"]
+[Termination "Game drawn - insufficient material"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Bf4 Nc6 5. e3 Nf6 6. Nc3 a6 7. Be2 Bf5 8. Nf3
+e6 9. Qb3 Ra7 10. Ne5 Nxe5 11. Bxe5 Nd7 12. Bg3 Be7 13. O-O O-O 14. Rfc1 b5 15.
+a4 b4 16. Na2 Qa5 17. Rc6 Nb8 18. Bxb8 Rxb8 19. Rac1 h6 20. Bd3 Bxd3 21. Rc8+
+Rxc8 22. Rxc8+ Bf8 23. Qxd3 Qxa4 24. Nc1 a5 25. g3 Qd7 26. Qc2 a4 27. Qc5 Qe7
+28. Qxe7 Rxe7 29. Ra8 Rc7 30. Nd3 a3 31. bxa3 bxa3 32. Nc5 g5 33. Kg2 Kg7 34.
+Rxa3 Bxc5 35. dxc5 Rxc5 36. Ra7 g4 37. h3 h5 38. hxg4 hxg4 39. Ra4 f5 40. Ra6
+Kf6 41. Kf1 Ke5 42. Kg2 Rb5 43. Rc6 Rb4 44. Ra6 Rb8 45. Rc6 Ra8 46. Rb6 Rd8 47.
+Ra6 Rd6 48. Ra4 Rc6 49. Ra5 Ke4 50. Ra4+ Rc4 51. Ra6 e5 52. Re6 Rc8 53. Re7 Rc6
+54. Re8 Ra6 55. Re7 Ra4 56. Re8 d4 57. exd4 Rxd4 58. Re7 Rd5 59. Re8 Kd3 60. Rf8
+Ke4 61. Re8 Ra5 62. Re7 Ra2 63. Re8 Kd5 64. Rd8+ Ke6 65. Re8+ Kf6 66. Rf8+ Kg6
+67. Re8 Ra5 68. Re6+ Kg5 69. Re8 f4 70. gxf4+ exf4 71. Rg8+ Kf5 72. Rf8+ Ke4 73.
+Re8+ Re5 74. Rg8 Kf5 75. Rf8+ Kg5 76. Rg8+ Kh4 77. Rh8+ Rh5 78. Rg8 Rh7 79. f3
+gxf3+ 80. Kxf3 Kh5 81. Kxf4 Rf7+ 82. Ke5 Kh4 83. Ke6 Rf4 84. Rg6 Rg4 85. Rxg4+
+Kxg4 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.10.25"]
+[Round "-"]
+[White "FairChess_on_YouTube"]
+[Black "viditchess"]
+[Result "1/2-1/2"]
+[WhiteElo "3240"]
+[BlackElo "2942"]
+[TimeControl "60+1"]
+[EndTime "11:52:24 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Qa4+ Nc6 6. e3 O-O 7. Bd2 dxc4 8.
+Bxc4 Bd6 9. Qc2 e5 10. dxe5 Nxe5 11. Nxe5 Bxe5 12. f4 Bxc3 13. Bxc3 Ng4 14. Bd4
+c5 15. Bxc5 Re8 16. O-O b6 17. Bd4 Nxe3 18. Bxe3 Rxe3 19. Rad1 Qf6 20. Bd5 Bf5
+21. Qc7 Re7 22. Qxe7 Qxe7 23. Bxa8 g6 24. Bf3 Qb4 25. Rf2 Qxf4 26. h3 Qe3 27. a3
+Be6 28. Rd2 Kg7 29. Kh2 Qe5+ 30. Kg1 h5 31. Rfe2 Qc5+ 32. Kh1 Qc1+ 33. Kh2 Qc7+
+34. Kg1 Qc5+ 35. Kh2 Qc7+ 36. Kg1 Qc5+ 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.10.25"]
+[Round "-"]
+[White "viditchess"]
+[Black "SergeyKarjakin"]
+[Result "1/2-1/2"]
+[WhiteElo "3010"]
+[BlackElo "3167"]
+[TimeControl "60+1"]
+[EndTime "13:44:12 PDT"]
+[Termination "Game drawn by repetition"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Qc2 Bd6 7. b3 O-O 8. Be2 b6
+9. O-O Bb7 10. a4 Qe7 11. a5 Rab8 12. Bb2 Rfd8 13. Rfd1 h6 14. Bf1 Bb4 15. axb6
+axb6 16. Ra7 Qe8 17. Rda1 c5 18. Na2 dxc4 19. Nxb4 cxb3 20. Qxb3 Bxf3 21. gxf3
+cxb4 22. Qxb4 Ra8 23. Bb5 Rxa7 24. Rxa7 Qf8 25. Ba3 Qxb4 26. Bxb4 Nd5 27. Bd6
+N7f6 28. Be5 Nc3 29. Ba6 b5 30. Rb7 Ra8 31. Bxb5 Nxb5 32. Rxb5 Nd5 33. e4 Ne7
+34. d5 exd5 35. exd5 f6 36. Bc7 Ra1+ 37. Kg2 Rd1 38. d6 Ng6 39. h3 Nf4+ 40. Kh2
+Kf7 41. Rb7 Ke6 42. Bb8 g5 43. Re7+ Kf5 44. d7 Ng6 45. Rf7 Ne5 46. Rh7 Nxd7 47.
+Bg3 Kg6 48. Re7 Rd5 49. Kg2 h5 50. f4 gxf4 51. Bxf4 Ne5 52. Bg3 Nd3 53. Kf3 Nc5
+54. Ke3 Rf5 55. h4 Rd5 56. Ra7 Rd3+ 57. Ke2 Rd5 58. Kf3 Rf5+ 59. Kg2 Rd5 60. Ra5
+Rf5 61. f3 Ne6 62. Ra6 Nf4+ 63. Kh2 Ne2 64. Kg2 Nxg3 65. Kxg3 Re5 66. Kf4 Rd5
+67. Rb6 Rf5+ 68. Kg3 Ra5 69. Rc6 Ra4 70. Rb6 Ra3 71. Rd6 Ra4 72. Rb6 Ra3 73. Rd6
+Ra4 74. Rd3 Ra5 75. Rd1 Ra4 76. Rb1 Ra3 77. Rb5 Ra4 78. Kf2 Ra3 79. Kg3 Ra4 80.
+Rc5 Ra3 81. Rd5 Ra4 82. Rb5 Ra3 83. Rc5 Ra4 84. f4 Ra3+ 85. Kg2 Ra2+ 86. Kf3
+Ra3+ 87. Kg2 Ra2+ 88. Kg3 Ra3+ 89. Kg2 1/2-1/2
