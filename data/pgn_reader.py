@@ -74,9 +74,5 @@ def main():
             print(game, file=fi, end="\n\n")
 
 
-
-
-
-
 if __name__ == "__main__":
     main()
