@@ -1,0 +1,8 @@
+uci
+setoption name EnableTranspositionTable value false
+setoption name PruneAtShallowDepth value false
+setoption name SkipLoadingEval value false  
+setoption name Use NNUE value pure
+setoption name Threads value 8
+isready
+learn targetdir trainingdata epochs 1000 batchsize 10000 use_draw_in_training 1 use_draw_in_validation 1 lr 1 lambda 1 eval_limit 32000 nn_batch_size 1000 newbob_decay 0.5 eval_save_interval 10000 loss_output_interval 10000 validation_set_file_name ../../data/vidit/val.binpack                                                                   
