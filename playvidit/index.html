@@ -10,7 +10,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="node_modules/chessboardjs/js/chessboard-1.0.0.min.js"></script>
     <script src="node_modules/chess.js/chess.js"></script>
-    <script src="https://jenaroh.it/samaychessbot/playvidit/stockfish.js"></script>
+    <script src="stockfish.js"></script>
 </head>
 <body>
 
@@ -176,6 +176,22 @@
                   </div>
               </div>
               </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for White promotion player -->
+    <div class="modal fade" id="gameOverScreen" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="gameOverScreen" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h5 class="modal-title" id="">Game Over</h5>
+          </div>
+          <div class="modal-body text-center" id="gameOverMessage">
+          </div>
+          <div class="modal-body text-center" id="">
+              <button class="btn btn-success" id="restartBtn">Try again!</button>
           </div>
         </div>
       </div>

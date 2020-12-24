@@ -5,12 +5,38 @@ const game = new Chess()
 var $status = $('#status')
 var $fen = $('#fen')
 var $pgn = $('#pgn')
-var playercolor=-1
+var playercolor=''
 var promSource, promTarget
 
+// Stockfish callbacks
 var stockfish = STOCKFISH();
+stockfish.postMessage('uci');
 stockfish.onmessage = function(event) {
-    console.log(event.data? event.data: event)
+    if(typeof event !== 'string')
+        return;
+
+    // If UCI command was cool, start to set settings
+    console.log(event)
+    if(event == 'uciok') {
+        console.log('uciok')
+        stockfish.postMessage('setoption name Skill Level value 15')
+    }
+    else if(event.startsWith('bestmove')) {
+        // Found a move, play this move
+        console.log('found a bestmove')
+        move = event.split(' ')[1]
+        src = move.slice(0, 2)
+        targ = move.slice(2, 4)
+        prom = move.slice(4, 5)
+        console.log(src, targ, prom)
+        game.move({
+            from: src,
+            to: targ,
+            promotion: prom
+        })
+        updateStatus()
+        onSnapEnd()
+    }
 }
 
 function onDragStart (source, piece, position, orientation) {
@@ -18,10 +44,18 @@ function onDragStart (source, piece, position, orientation) {
   if (game.game_over()) return false
 
   // only pick up pieces for the side to move
+  if (game.turn() != playercolor)
+    return false
+
   if ((game.turn() === 'w' && piece.search(/^b/) !== -1) ||
       (game.turn() === 'b' && piece.search(/^w/) !== -1)) {
     return false
   }
+}
+
+function solvePosition() {
+    stockfish.postMessage('position fen ' + game.fen())
+    stockfish.postMessage('go movetime 1000')
 }
 
 function onDrop (source, target) {
@@ -96,16 +130,24 @@ function updateStatus () {
   }
   status = moveColor + ' to move'
 
+  // Check for next move
+  if (game.turn() != playercolor && playercolor != '')
+    solvePosition()
+
   // checkmate?
-/*
   if (game.in_checkmate()) {
     status = 'Game over, ' + moveColor + ' is in checkmate.'
+    $('#gameOverMessage').html(status);
+    $("#gameOverScreen").modal("show");
   }
 
   // draw?
   else if (game.in_draw()) {
     status = 'Game over, drawn position'
+    $('#gameOverMessage').html("It's a draw!");
+    $("#gameOverScreen").modal("show");
   }
+  /*
 
   // game still on
   else {
@@ -138,19 +180,23 @@ var board = Chessboard('mainBoard', {
 // Set up player
 // White = 0, Black = 1
 $("#chooseBlack").click(function(){
-    playercolor=1
+    playercolor='b'
     $('#modalChoosePlayer').modal('hide');
     board.flip()
+    solvePosition()
 })
 $("#chooseWhite").click(function(){
-    playercolor=0
+    playercolor='w'
     $('#modalChoosePlayer').modal('hide');
-    stockfish.postMessage('go depth 15')
 })
 $("#chooseRandom").click(function(){
+    choices = ['w', 'b']
     playercolor=Math.floor(Math.random()*2)
-    if(playercolor==1)
+    playercolor=choices[playercolor]
+    if(playercolor=='b') {
         board.flip()
+        solvePosition()
+    }
     $('#modalChoosePlayer').modal('hide');
 })
 
@@ -167,4 +213,6 @@ $(document).ready(
     }
 )
 
-
+$('#restartBtn').click(function(){
+    location.reload();
+})
