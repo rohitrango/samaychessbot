@@ -8,6 +8,11 @@ var $pgn = $('#pgn')
 var playercolor=-1
 var promSource, promTarget
 
+var stockfish = STOCKFISH();
+stockfish.onmessage = function(event) {
+    console.log(event.data? event.data: event)
+}
+
 function onDragStart (source, piece, position, orientation) {
   // do not pick up pieces if the game is over
   if (game.game_over()) return false
@@ -140,6 +145,7 @@ $("#chooseBlack").click(function(){
 $("#chooseWhite").click(function(){
     playercolor=0
     $('#modalChoosePlayer').modal('hide');
+    stockfish.postMessage('go depth 15')
 })
 $("#chooseRandom").click(function(){
     playercolor=Math.floor(Math.random()*2)
@@ -160,4 +166,5 @@ $(document).ready(
         $('#modalChoosePlayer').modal('show');
     }
 )
+
 
