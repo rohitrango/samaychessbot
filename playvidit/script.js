@@ -6,6 +6,7 @@ var $status = $('#status')
 var $fen = $('#fen')
 var $pgn = $('#pgn')
 var playercolor=-1
+var promSource, promTarget
 
 function onDragStart (source, piece, position, orientation) {
   // do not pick up pieces if the game is over
@@ -23,12 +24,55 @@ function onDrop (source, target) {
   var move = game.move({
     from: source,
     to: target,
-    promotion: 'q' // NOTE: always promote to a queen for example simplicity
   })
 
   // illegal move
-  if (move === null) return 'snapback'
-  updateStatus()
+  if (move === null) {
+      var checkmove = game.move({
+          from: source,
+          to: target,
+          promotion: 'q'
+      })
+      if (checkmove === null)
+        return 'snapback'
+      // promotion is possible
+      game.undo();
+
+      // Set player turn
+      promSource = source
+      promTarget = target
+      if(game.turn() === 'b')
+          $("#promotionChoiceBlack").modal("show");
+      else if(game.turn() === 'w')
+          $("#promotionChoiceWhite").modal("show");
+  }
+  else
+      updateStatus()
+}
+
+$('#chooseBishop').click(promote('b'));
+$('#chooseRook').click(promote('r'));
+$('#chooseKnight').click(promote('n'));
+$('#chooseQueen').click(promote('q'));
+$('#chooseBishopW').click(promote('b'));
+$('#chooseRookW').click(promote('r'));
+$('#chooseKnightW').click(promote('n'));
+$('#chooseQueenW').click(promote('q'));
+
+function promote(piece) {
+    function _promote() {
+        $('#promotionChoiceBlack').modal('hide');
+        $('#promotionChoiceWhite').modal('hide');
+        game.move({
+            from: promSource,
+            to:  promTarget,
+            promotion: piece
+        });
+        promSource = promTarget = null
+        updateStatus()
+        onSnapEnd()
+    }
+    return _promote
 }
 
 
@@ -81,9 +125,9 @@ var board = Chessboard('mainBoard', {
     draggable: true,
     position: 'start',
     dropOffBoard: 'trash',
-      onDragStart: onDragStart,
-      onDrop: onDrop,
-      onSnapEnd: onSnapEnd
+    onDragStart: onDragStart,
+    onDrop: onDrop,
+    onSnapEnd: onSnapEnd
 });
 
 // Set up player
