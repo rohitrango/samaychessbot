@@ -33,13 +33,26 @@
                 -->
             </div>
             <div class="col-sm-4 border" >
-                <b><div id="status"></div></b>
+                <div class="row">
+                <div class="col-md-4">
+                    <img src="vidit.png" alt="Vidit" style="width: 100%">
+                </div>
+
+                <div class="col-md-8" id="chatbox">
+                    Nice to meet you! Let's play!
+                </div>
+                </div>
+                <b><div id="status" style="visibility: hidden"></div></b>
                 <!--
 
                 <div id="status"></div>
                 <div id="fen"></div>
                 -->
-                <div class="row" id="pgn"></div>
+                <!--
+
+                <div class="row overflow-auto border" id="pgn" style="height: 600px"></div>
+                -->
+                <div class="row overflow-auto border" style="max-height: 600px" id="pgn"></div>
             </div>
         </div>
     </div>
@@ -107,7 +120,7 @@
 
 
     <!-- Modal for black promotion player -->
-    <div class="modal fade" id="promotionChoiceBlack" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="promotionChoiceBlack" aria-hidden="true">
+    <div class="modal fade" id="promotionChoiceBlack" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static" aria-labelledby="promotionChoiceBlack" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -145,7 +158,7 @@
 
 
     <!-- Modal for White promotion player -->
-    <div class="modal fade" id="promotionChoiceWhite" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="promotionChoiceWhite" aria-hidden="true">
+    <div class="modal fade" id="promotionChoiceWhite" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static" aria-labelledby="promotionChoiceWhite" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -191,13 +204,17 @@
           <div class="modal-body text-center" id="gameOverMessage">
           </div>
           <div class="modal-body text-center" id="">
-              <button class="btn btn-success" id="restartBtn">Try again!</button>
+              <button class="btn btn-success" id="restartBtn">Play again</button>
+              <a href="../">
+              <button class="btn btn-warning" id="">Go Back</button>
+              </a>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Main script -->
+    <script src="./engine.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>

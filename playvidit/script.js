@@ -7,6 +7,20 @@ var $fen = $('#fen')
 var $pgn = $('#pgn')
 var playercolor=''
 var promSource, promTarget
+var usestockfish_result = false
+var botsrc = null
+var botdst = null
+var chatboxdurationleft = 3;
+var cphistory = []
+var matehistory = []
+var cp = 0
+var mate = null
+//
+// Extra variables for checking dialogues
+matebuffer = 0
+matedbuffer = 0
+checkbuffer = 0
+checkedbuffer = 0
 
 // Stockfish callbacks
 var stockfish = STOCKFISH();
@@ -19,21 +33,45 @@ stockfish.onmessage = function(event) {
     console.log(event)
     if(event == 'uciok') {
         console.log('uciok')
-        stockfish.postMessage('setoption name Skill Level value 15')
+        stockfish.postMessage('setoption name Skill Level value 14')
+    }
+    else if(event.startsWith('info')) {
+        // Here we will check for best cp and mate
+        event = event.split(' ')
+        for(i=0; i<event.length; i++) {
+            if(event[i] == 'cp')
+                cp = event[i+1]
+            else if(event[i] == 'mate') {
+                mate = event[i+1]
+            }
+        }
+
     }
     else if(event.startsWith('bestmove')) {
         // Found a move, play this move
         console.log('found a bestmove')
-        move = event.split(' ')[1]
-        src = move.slice(0, 2)
-        targ = move.slice(2, 4)
-        prom = move.slice(4, 5)
-        console.log(src, targ, prom)
-        game.move({
-            from: src,
-            to: targ,
-            promotion: prom
-        })
+        if(usestockfish_result) {
+            move = event.split(' ')[1]
+            src = move.slice(0, 2)
+            targ = move.slice(2, 4)
+            prom = move.slice(4, 5)
+            console.log(src, targ, prom)
+            game.move({
+                from: src,
+                to: targ,
+                promotion: prom
+            })
+        }
+        else {
+            game.move({
+                from: botsrc,
+                to: botdst
+            })
+        }
+        // Update cp and mate histories
+        cphistory.push(cp)
+        matehistory.push(mate)
+
         updateStatus()
         onSnapEnd()
     }
@@ -54,8 +92,26 @@ function onDragStart (source, piece, position, orientation) {
 }
 
 function solvePosition() {
-    stockfish.postMessage('position fen ' + game.fen())
-    stockfish.postMessage('go movetime 1000')
+    posfromhist = game.history().join(" ").replace("+", "")
+    console.log(posfromhist)
+    if(positionDict[posfromhist] == null) {
+        stockfish.postMessage('position fen ' + game.fen())
+        stockfish.postMessage('go movetime 1000')
+        usestockfish_result = true
+    }
+    else {
+        move = positionDict[posfromhist]
+        openingtalk = dialogues[posfromhist]
+        if(openingtalk != null) {
+            $("#chatbox").html(openingtalk);
+            chatboxdurationleft = 3;
+        }
+        botsrc = move[0]
+        botdst = move[1]
+        stockfish.postMessage('position fen ' + game.fen())
+        stockfish.postMessage('go movetime 500')
+        usestockfish_result = false
+    }
 }
 
 function onDrop (source, target) {
@@ -122,7 +178,12 @@ function onSnapEnd () {
 }
 
 function updateStatus () {
+  chatboxdurationleft -= 1;
+  if(chatboxdurationleft == 0)
+    $("#chatbox").html("");
+
   var status = ''
+  var notdone = true
 
   var moveColor = 'White'
   if (game.turn() === 'b') {
@@ -130,15 +191,13 @@ function updateStatus () {
   }
   status = moveColor + ' to move'
 
-  // Check for next move
-  if (game.turn() != playercolor && playercolor != '')
-    solvePosition()
 
   // checkmate?
   if (game.in_checkmate()) {
     status = 'Game over, ' + moveColor + ' is in checkmate.'
     $('#gameOverMessage').html(status);
     $("#gameOverScreen").modal("show");
+    notdone = false
   }
 
   // draw?
@@ -146,6 +205,7 @@ function updateStatus () {
     status = 'Game over, drawn position'
     $('#gameOverMessage').html("It's a draw!");
     $("#gameOverScreen").modal("show");
+    notdone = false
   }
   /*
 
@@ -158,6 +218,12 @@ function updateStatus () {
     }
   }
   */
+  // once vidit has played, check for any new chat messages
+  updateBotChat();
+
+  // Check for next move
+  if (notdone && game.turn() != playercolor && playercolor != '')
+    solvePosition()
 
   $status.html(status)
   $fen.html(game.fen())
@@ -216,3 +282,63 @@ $(document).ready(
 $('#restartBtn').click(function(){
     location.reload();
 })
+
+function updateBotChat() {
+    // update bot chat based on history of mate and cp
+    // Check if bot is going to checkmate
+    Nmate = matehistory.length
+    Ncp = cphistory.length
+
+    // See checks and update dialogue
+    if (game.in_check()) {
+        if(game.turn() == playercolor)
+            if(checkbuffer <= 0 && matebuffer <= 0) {
+                checkbuffer = 10
+                chatboxdurationleft = 3
+                updateDial(checkdial)
+            }
+    }
+
+    // Bot is going to checkmate
+    if(mate > 0) {
+        if(matehistory[Nmate-2] == null && matebuffer <= 0) {
+            matebuffer = 10
+            chatboxdurationleft = 3
+            updateDial(matedial)
+        }
+    }
+    else if(mate < 0) {
+        if(matehistory[Nmate-2] == null && matedbuffer <= 0) {
+            matedbuffer = 10
+            chatboxdurationleft = 3
+            updateDial(mateddial)
+        }
+    }
+    else if(mate == null) {
+        if(matehistory[Nmate-2] < 0) {
+            chatboxdurationleft = 3
+            updateDial(blunderdial)
+        }
+    }
+
+    // Checkmated or draw
+    if(game.in_checkmate()) {
+        if(game.turn() == playercolor)
+            updateDial(wondial)
+        else
+            updateDial(lostdial)
+    }
+    else if (game.in_draw()) {
+        updateDial(drawdial)
+    }
+
+    matebuffer -= 1
+    checkbuffer -= 1
+    checkedbuffer -= 1
+    matedbuffer -= 1
+}
+
+function updateDial(li) {
+    str = chooseFrom(li)
+    $("#chatbox").html(str);
+}
