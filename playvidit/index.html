@@ -5,7 +5,11 @@
     <title>Play against Vidit Bot!</title>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="node_modules/chessboardjs/css/chessboard-1.0.0.min.css">
+    <!--
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="custom.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="node_modules/chessboardjs/js/chessboard-1.0.0.min.js"></script>
@@ -33,6 +37,7 @@
                 -->
             </div>
             <div class="col-sm-4 border" >
+                <br>
                 <div class="row">
                 <div class="col-md-4">
                     <img src="vidit.png" alt="Vidit" style="width: 100%">
@@ -43,6 +48,7 @@
                 </div>
                 </div>
                 <b><div id="status" style="visibility: hidden"></div></b>
+                <b><div id="bestmove"></div></b>
                 <!--
 
                 <div id="status"></div>
@@ -52,7 +58,8 @@
 
                 <div class="row overflow-auto border" id="pgn" style="height: 600px"></div>
                 -->
-                <div class="row overflow-auto border" style="max-height: 600px" id="pgn"></div>
+                <div class="row overflow-auto" style="max-height: 600px" id="pgn">
+                </div>
             </div>
         </div>
     </div>
@@ -73,8 +80,9 @@
               <div class="row">
                   <div class="col-4 text-center">
                       <a href="#" id="chooseWhite">
-                      <img src="img/chesspieces/wikipedia/wK.png" alt="White" style="width: 100%">
+                      <img class="piece" src="img/chesspieces/wikipedia/wK.png" alt="White" style="width: 100%">
                       </a>
+                      <br>
                       <br>
                       <b>
                       White
@@ -85,8 +93,9 @@
                   </div>
                   <div class="col-4 text-center">
                       <a href="#" id="chooseBlack">
-                      <img src="img/chesspieces/wikipedia/bK.png" alt="Black" style="width: 100%">
+                      <img class="piece" src="img/chesspieces/wikipedia/bK.png" alt="Black" style="width: 100%">
                       </a>
+                      <br>
                       <br>
                       <b>
                       Black
@@ -97,8 +106,9 @@
                   </div>
                   <div class="col-4 text-center">
                       <a href="#" id="chooseRandom">
-                      <img src="img/chesspieces/wikipedia/rK.png" alt="Random" style="width: 100%">
+                      <img class="piece" src="img/chesspieces/wikipedia/rK.png" alt="Random" style="width: 100%">
                       </a>
+                      <br>
                       <br>
                       <b>
                       Random

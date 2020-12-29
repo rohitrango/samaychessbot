@@ -22,6 +22,32 @@ matedbuffer = 0
 checkbuffer = 0
 checkedbuffer = 0
 
+// var oracle = STOCKFISH();
+// oracle.postMessage('uci');
+/*
+oracle.onmessage = function(event) {
+    if(typeof event !== 'string')
+        return;
+
+    // If UCI command was cool, start to set settings
+    console.log(event)
+    if(event == 'uciok') {
+        console.log('uciok')
+    }
+    else if(event.startsWith('bestmove')) {
+        // Found a move, play this move
+        console.log('found a bestmove')
+        move = event.split(' ')[1]
+        src = move.slice(0, 2)
+        targ = move.slice(2, 4)
+        prom = move.slice(4, 5)
+        console.log(src, targ, prom)
+        $("#bestmove").html(event)
+    }
+}
+*/
+
+
 // Stockfish callbacks
 var stockfish = STOCKFISH();
 stockfish.postMessage('uci');
@@ -181,6 +207,10 @@ function updateStatus () {
   chatboxdurationleft -= 1;
   if(chatboxdurationleft == 0)
     $("#chatbox").html("");
+
+  // Oracle
+  // oracle.postMessage('position fen ' + game.fen())
+  // oracle.postMessage('go movetime 1000')
 
   var status = ''
   var notdone = true
