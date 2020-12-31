@@ -1,0 +1,15 @@
+.piece {
+    background-color: white;
+    border-radius: 10px
+}
+
+body {
+    font-weight: bold;
+}
+
+#pgn {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}

@@ -60,6 +60,7 @@ stockfish.onmessage = function(event) {
     if(event == 'uciok') {
         console.log('uciok')
         stockfish.postMessage('setoption name Skill Level value 0')
+        stockfish.postMessage('setoption name Skill Level Maximum Error value 1500')
     }
     else if(event.startsWith('info')) {
         // Here we will check for best cp and mate
@@ -126,7 +127,7 @@ function solvePosition() {
     console.log(posfromhist)
     if(positionDict[posfromhist] == null) {
         stockfish.postMessage('position fen ' + game.fen())
-        stockfish.postMessage('go movetime 1000')
+        stockfish.postMessage('go movetime 75')
         usestockfish_result = true
     }
     else {
