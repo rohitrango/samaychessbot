@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Play against Samay Bot!</title>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="node_modules/chessboardjs/css/chessboard-1.0.0.min.css">
+    <!--
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="custom.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/chessboardjs/js/chessboard-1.0.0.min.js"></script>
+    <script src="node_modules/chess.js/chess.js"></script>
+    <script src="stockfish.js"></script>
+</head>
+<body>
+
+    <div id="loading" class="container">
+        <div class="d-flex justify-content-center">
+              <div class="spinner-border" role="status">
+                      <span class="sr-only">Loading...</span>
+              </div>
+        </div>
+    </div>
+
+    <div id="main" class="container border" style="visibility: hidden">
+        <div class="row">
+            <div class="col-sm-7 border">
+                <div id="mainBoard" style="width: 100%"></div>
+                <br>
+                <!--
+                <button class="btn btn-success" id="startBtn">Start Position</button>
+                <button class="btn btn-warning" id="clearBtn">Clear Board</button>
+                -->
+            </div>
+            <div class="col-sm-5 border" >
+                <br>
+                <div class="row">
+                <div class="col-md-4">
+                    <img class="border" src="Samay.png" alt="Samay" style="width: 100%">
+                </div>
+
+                <div class="col-md-8" id="chatbox">
+                    Nice to meet you! Let's play!
+                </div>
+                </div>
+                <b><div id="status" style="visibility: hidden"></div></b>
+                <b><div id="bestmove"></div></b>
+                <!--
+
+                <div id="status"></div>
+                <div id="fen"></div>
+                -->
+                <!--
+
+                <div class="row overflow-auto border" id="pgn" style="height: 600px"></div>
+                -->
+                <div class="row overflow-auto" style="max-height: 600px" id="pgn">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--
+        Modal
+    -->
+    <!-- Modal for choosing player -->
+    <div class="modal fade" id="modalChoosePlayer" tabindex="-1" role="dialog" aria-labelledby="modalChoosePlayer" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalChoosePlayerTitle">Choose your side</h5>
+          </div>
+          <div class="modal-footer">
+              <div class="container">
+              <div class="row">
+                  <div class="col-4 text-center">
+                      <a href="#" id="chooseWhite">
+                      <img class="piece" src="img/chesspieces/wikipedia/wK.png" alt="White" style="width: 100%">
+                      </a>
+                      <br>
+                      <br>
+                      <b>
+                      White
+                      </b>
+                      <!--
+                      <button type="button" class="btn btn-primary">Black</button>
+                      -->
+                  </div>
+                  <div class="col-4 text-center">
+                      <a href="#" id="chooseBlack">
+                      <img class="piece" src="img/chesspieces/wikipedia/bK.png" alt="Black" style="width: 100%">
+                      </a>
+                      <br>
+                      <br>
+                      <b>
+                      Black
+                      </b>
+                      <!--
+                      <button type="button" class="btn btn-primary">White</button>
+                      -->
+                  </div>
+                  <div class="col-4 text-center">
+                      <a href="#" id="chooseRandom">
+                      <img class="piece" src="img/chesspieces/wikipedia/rK.png" alt="Random" style="width: 100%">
+                      </a>
+                      <br>
+                      <br>
+                      <b>
+                      Random
+                      </b>
+                      <!--
+                      <button type="button" class="btn btn-primary">Random</button>
+                      -->
+                  </div>
+              </div>
+              </div>
+              <!--
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+              -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal for black promotion player -->
+    <div class="modal fade" id="promotionChoiceBlack" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static" aria-labelledby="promotionChoiceBlack" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="">Promote to</h5>
+          </div>
+          <div class="modal-footer">
+              <div class="container">
+              <div class="row">
+                  <div class="col-3 text-center">
+                      <a href="#" id="chooseQueen">
+                      <img src="img/chesspieces/wikipedia/bQ.png" alt="Queen" style="width: 100%">
+                      </a>
+                  </div>
+                  <div class="col-3 text-center">
+                      <a href="#" id="chooseBishop">
+                      <img src="img/chesspieces/wikipedia/bB.png" alt="Bishop" style="width: 100%">
+                      </a>
+                  </div>
+                  <div class="col-3 text-center">
+                      <a href="#" id="chooseKnight">
+                      <img src="img/chesspieces/wikipedia/bN.png" alt="Knight" style="width: 100%">
+                      </a>
+                  </div>
+                  <div class="col-3 text-center">
+                      <a href="#" id="chooseRook">
+                      <img src="img/chesspieces/wikipedia/bR.png" alt="Rook" style="width: 100%">
+                      </a>
+                  </div>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal for White promotion player -->
+    <div class="modal fade" id="promotionChoiceWhite" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static" aria-labelledby="promotionChoiceWhite" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="">Promote to</h5>
+          </div>
+          <div class="modal-footer">
+              <div class="container">
+              <div class="row">
+                  <div class="col-3 text-center">
+                      <a href="#" id="chooseQueenW">
+                      <img src="img/chesspieces/wikipedia/wQ.png" alt="Bishop" style="width: 100%">
+                      </a>
+                  </div>
+                  <div class="col-3 text-center">
+                      <a href="#" id="chooseBishopW">
+                      <img src="img/chesspieces/wikipedia/wB.png" alt="Bishop" style="width: 100%">
+                      </a>
+                  </div>
+                  <div class="col-3 text-center">
+                      <a href="#" id="chooseKnightW">
+                      <img src="img/chesspieces/wikipedia/wN.png" alt="Knight" style="width: 100%">
+                      </a>
+                  </div>
+                  <div class="col-3 text-center">
+                      <a href="#" id="chooseRookW">
+                      <img src="img/chesspieces/wikipedia/wR.png" alt="Rook" style="width: 100%">
+                      </a>
+                  </div>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for White promotion player -->
+    <div class="modal fade" id="gameOverScreen" tabindex="-1" role="dialog" aria-labelledby="gameOverScreen" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h5 class="modal-title" id="">Game Over</h5>
+          </div>
+          <div class="modal-body text-center" id="gameOverMessage">
+          </div>
+          <div class="modal-body text-center" id="">
+              <button class="btn btn-success" id="restartBtn">Play again</button>
+              <a href="../">
+              <button class="btn btn-warning" id="">Go Back</button>
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main script -->
+    <script src="./engine.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

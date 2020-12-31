@@ -5,6 +5,7 @@
 
 body {
     font-weight: bold;
+    background-color: lightgray; !important
 }
 
 #pgn {
