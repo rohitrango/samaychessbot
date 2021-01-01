@@ -61,6 +61,7 @@ var matedial = [
 
 var mateddial = [
     "Wait, am I going to get mated?",
+    "How did I get to such a losing position?",
 ]
 
 var blunderdial = [

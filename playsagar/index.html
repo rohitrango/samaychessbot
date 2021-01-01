@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Play against Samay Bot!</title>
+    <title>Play against Sagar Bot!</title>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="node_modules/chessboardjs/css/chessboard-1.0.0.min.css">
     <!--
@@ -14,6 +14,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="node_modules/chessboardjs/js/chessboard-1.0.0.min.js"></script>
     <script src="node_modules/chess.js/chess.js"></script>
+    <link rel="icon" type="image/png" href="favicon.ico"/>
     <script src="stockfish.js"></script>
 </head>
 <body>
@@ -26,7 +27,7 @@
         </div>
     </div>
 
-    <div id="main" class="container border" style="visibility: hidden">
+    <div id="main" class="container-fluid border" style="visibility: hidden; width: 80%">
         <div class="row">
             <div class="col-sm-7 border">
                 <div id="mainBoard" style="width: 100%"></div>
@@ -40,11 +41,11 @@
                 <br>
                 <div class="row">
                 <div class="col-md-4">
-                    <img class="border" src="Samay.png" alt="Samay" style="width: 100%">
+                    <img class="border" src="Sagar.png" alt="Sagar" style="width: 100%">
                 </div>
 
                 <div class="col-md-8" id="chatbox">
-                    Nice to meet you! Let's play!
+                    Are you having a low day? Let me cheer you up with a game of Chess!
                 </div>
                 </div>
                 <b><div id="status" style="visibility: hidden"></div></b>
@@ -204,12 +205,14 @@
       </div>
     </div>
 
-    <!-- Modal for White promotion player -->
     <div class="modal fade" id="gameOverScreen" tabindex="-1" role="dialog" aria-labelledby="gameOverScreen" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header text-center">
             <h5 class="modal-title" id="">Game Over</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+            </button>
           </div>
           <div class="modal-body text-center" id="gameOverMessage">
           </div>
