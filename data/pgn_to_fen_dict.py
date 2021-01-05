@@ -53,7 +53,7 @@ def main():
         for b, a in zip(states, actions):
             tcolor = b.split(' ')[1]
             if tcolor == playercolor:
-                bsplit = " ".join(b.split(' ')[:4])
+                bsplit = " ".join(b.split(' ')[:3])
                 if allstates.get(bsplit) is None:
                     allstates[bsplit] = dict()
                 allstates[bsplit][a] = allstates[bsplit].get(a, 0) + 1
