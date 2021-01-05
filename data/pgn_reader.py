@@ -54,6 +54,7 @@ def main():
 
     wongames = []
     drawgames = []
+    allgames = []
 
     for game in games:
         result = game.headers['Termination'].lower()
@@ -61,8 +62,11 @@ def main():
             drawgames.append(game)
         elif 'won' in result and player in result:
             wongames.append(game)
+        # Save all games too
+        allgames.append(game)
 
     print("Added {} won games and {} drawn games".format(len(wongames), len(drawgames)))
+    print("Added {} games in total.".format(len(allgames)))
 
     os.makedirs(savedir, exist_ok=True)
     with open(os.path.join(savedir, '{}_won.pgn'.format(player)), 'w') as fi:
@@ -73,6 +77,9 @@ def main():
         for game in drawgames:
             print(game, file=fi, end="\n\n")
 
+    with open(os.path.join(savedir, '{}.pgn'.format(player)), 'w') as fi:
+        for game in allgames:
+            print(game, file=fi, end="\n\n")
 
 if __name__ == "__main__":
     main()
