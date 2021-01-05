@@ -32,7 +32,7 @@ var dialogues = {
     "e4 e5 f4 exf4": "You accepted it! Ab aayega mazaa doston",
     "e4 e5 f4 Nc6": "Kya darpok ho yaar aap. Koi baat nahi, hum abhi pieces develop karenge",
     "e4 e5 f4 d6": "Kya darpok ho yaar aap. Koi baat nahi, hum abhi pieces develop karenge",
-    "e4 c5": "Sagar ne kuch toh sikhaya tha Sicilian ke baare mein",
+    "e4 c5": "Sagar ne humko Sicilian sikhaya hai, jo mai ab regularly khelta hun",
     "e4 e6": "French defense, typical beginner ho aap.",
 
     // As black

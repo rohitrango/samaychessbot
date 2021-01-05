@@ -150,7 +150,7 @@ function solvePosition() {
 
     fen = game.fen()
     halfmove = fen.split(' ')[4]
-    fenstr = fen.split(' ').slice(0, 4).join(' ')
+    fenstr = fen.split(' ').slice(0, 3).join(' ')
     console.log(fenstr)
 
     if(posDict[fenstr] == null || halfmove >= 90) {
@@ -173,7 +173,7 @@ function solvePosition() {
 
     // dialogue goes here, maybe improve this a bit later
     openingtalk = dialogues[posfromhist]
-    if(openingtalk != null) {
+    if(openingtalk != null && positionDict[posfromhist][0] == botsrc && positionDict[posfromhist][1] == botdst) {
         $("#chatbox").html(openingtalk);
         chatboxdurationleft = 3;
     }
