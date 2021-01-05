@@ -10,11 +10,18 @@ var promSource, promTarget
 var usestockfish_result = false
 var botsrc = null
 var botdst = null
+var botprom = ""
 var chatboxdurationleft = 3;
 var cphistory = []
 var matehistory = []
 var cp = 0
 var mate = null
+var posDict = {}
+
+$.getJSON('./dict.json', function(json) {
+    posDict = json
+});
+
 //
 // Extra variables for checking dialogues
 matebuffer = 0
@@ -64,7 +71,7 @@ stockfish.onmessage = function(event) {
     else if(event.startsWith('info')) {
         // Here we will check for best cp and mate
         event = event.split(' ')
-        for(i=0; i<event.length; i++) {
+        for(var i=0; i<event.length; i++) {
             if(event[i] == 'cp')
                 cp = event[i+1]
             else if(event[i] == 'mate') {
@@ -95,7 +102,8 @@ stockfish.onmessage = function(event) {
         else {
             game.move({
                 from: botsrc,
-                to: botdst
+                to: botdst,
+                promotion: botprom,
             })
         }
         // Update cp and mate histories
@@ -121,26 +129,53 @@ function onDragStart (source, piece, position, orientation) {
   }
 }
 
+function sample(moves) {
+    // sample from list of moves
+    U = Math.random()
+    arraymoves = Object.entries(moves)
+    for(var i=0; i<arraymoves.length; i++) {
+        tmpmove = arraymoves[i][0]
+        tmpprob = arraymoves[i][1]
+        if(U < tmpprob){
+            return tmpmove
+        }
+        U -= tmpprob
+    }
+    return tmpmove
+}
+
 function solvePosition() {
     posfromhist = game.history().join(" ").replace("+", "")
     console.log(posfromhist)
-    if(positionDict[posfromhist] == null) {
+
+    fen = game.fen()
+    halfmove = fen.split(' ')[4]
+    fenstr = fen.split(' ').slice(0, 4).join(' ')
+    console.log(fenstr)
+
+    if(posDict[fenstr] == null || halfmove >= 90) {
+        console.log("Absent here. \n\n")
         stockfish.postMessage('position fen ' + game.fen())
-        stockfish.postMessage('go movetime 75')
+        stockfish.postMessage('go movetime 200')
         usestockfish_result = true
     }
     else {
-        move = positionDict[posfromhist]
-        openingtalk = dialogues[posfromhist]
-        if(openingtalk != null) {
-            $("#chatbox").html(openingtalk);
-            chatboxdurationleft = 3;
-        }
-        botsrc = move[0]
-        botdst = move[1]
+        console.log("Present here. \n\n")
+        console.log("Present here. \n\n")
+        move = sample(posDict[fenstr])
+        botsrc = move.slice(0, 2)
+        botdst = move.slice(2, 4)
+        botprom = move.slice(4)
         stockfish.postMessage('position fen ' + game.fen())
         stockfish.postMessage('go movetime 500')
         usestockfish_result = false
+    }
+
+    // dialogue goes here, maybe improve this a bit later
+    openingtalk = dialogues[posfromhist]
+    if(openingtalk != null) {
+        $("#chatbox").html(openingtalk);
+        chatboxdurationleft = 3;
     }
 }
 
