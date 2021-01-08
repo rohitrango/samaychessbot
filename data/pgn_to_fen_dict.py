@@ -32,6 +32,7 @@ def main():
             games.append(game)
 
     # Get list of moves and boards
+    print("Loaded {} games".format(len(games)))
     allstates = dict()
 
     # Iterate through all games
@@ -39,7 +40,7 @@ def main():
     for game in games:
         states = []
         actions = []
-        playercolor = 'w' if player.lower() == game.headers['White'].lower() else 'b'
+        playercolor = 'w' if player.lower() in game.headers['White'].lower() else 'b'
         # Get mainline moves
         moves = list(game.mainline_moves())
         board = game.board()
