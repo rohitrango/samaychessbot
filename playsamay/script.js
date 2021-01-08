@@ -66,7 +66,9 @@ stockfish.onmessage = function(event) {
     console.log(event)
     if(event == 'uciok') {
         console.log('uciok')
-        stockfish.postMessage('setoption name Skill Level value 1')
+        console.log(skilllevel)
+        console.log(movetime)
+        stockfish.postMessage('setoption name Skill Level value ' + skilllevel)
     }
     else if(event.startsWith('info')) {
         // Here we will check for best cp and mate
@@ -76,9 +78,10 @@ stockfish.onmessage = function(event) {
                 cp = event[i+1]
             else if(event[i] == 'mate') {
                 mate = event[i+1]
-                if(mate > 5)
+                console.log(matecounter)
+                if(mate > matecounter)
                     mate = null
-                if(mate < -5)
+                if(mate < -matecounter)
                     mate = null
             }
         }
@@ -156,7 +159,7 @@ function solvePosition() {
     if(posDict[fenstr] == null || halfmove >= 90) {
         console.log("Absent here. \n\n")
         stockfish.postMessage('position fen ' + game.fen())
-        stockfish.postMessage('go movetime 200')
+        stockfish.postMessage('go movetime ' + movetime)
         usestockfish_result = true
     }
     else {
