@@ -1,3 +1,7 @@
+movetime = 500
+skilllevel = 10
+matecounter = 7
+
 var positionDict = {
     // As white
     "": ["d2", "d4"],
